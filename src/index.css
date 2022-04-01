@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;400;600;700;800;900&family=Caudex:wght@700&display=swap');
+
+:root {
+    --font-family: 'Catamaran', sans-serif;
+    --alt-family:  'Caudex', 'serif';
+
+    --color-bg: rgba(19, 15, 15, 1);
+
+    --white: #FDFDFD;
+    --black: #1F1F1F;
+    --transparent-white: rgba(255, 255, 255, 0.18);
+    --transparent-black: rgba(0, 0, 0, 0.18);
+
+    /* gradient fill */
+    /* ff 3.6+ */
+    --gradient-fill-ff:-moz-linear-gradient(90deg, rgba(122, 122, 122, 1) 0%, rgba(73, 73, 73, 1) 100%); 
+
+    /* safari 5.1+,chrome 10+ */
+    --gradient-fill-sa:-webkit-linear-gradient(90deg, rgba(122, 122, 122, 1) 0%, rgba(73, 73, 73, 1) 100%);
+
+    /* opera 11.10+ */
+    --gradient-fill-op:-o-linear-gradient(90deg, rgba(122, 122, 122, 1) 0%, rgba(73, 73, 73, 1) 100%);
+
+    /* ie 6-9 */
+    --gradient-fill-ie-f: progid:DXImageTransform.Microsoft.gradient( startColorstr='#494949', endColorstr='#7A7A7A', GradientType=0 );
+
+    /* ie 10+ */
+    --gradient-fill-ie-b:-ms-linear-gradient(90deg, rgba(122, 122, 122, 1) 0%, rgba(73, 73, 73, 1) 100%);
+
+    /* global 94%+ browsers support */
+    --gradient-fill-gl:linear-gradient(90deg, rgba(122, 122, 122, 1) 0%, rgba(73, 73, 73, 1) 100%);
+
+    /*logos*/
+    --toyota: url('../public/img/toyota.svg');
+    --hyland: url('../public/img/hyland.svg');
+    --youtube: url('../public/img/youtube.svg');
+    --strava: url('../public/img/strava.svg');
+    --instagram: url('../public/img/instagram.svg');
+
+    --usspeedskating: url('../public/img/usspeedskating.svg');
+    --under-armour: url('https://upload.wikimedia.org/wikipedia/commons/4/44/Under_armour_logo.svg');
+    --toyota-color: url('https://upload.wikimedia.org/wikipedia/commons/9/9d/Toyota_carlogo.svg');
+    --hyland-color: url('https://www.hyland.com/-/media/Project/Hyland/Common/images/general/logos-hyland/hyland-logo.svg');
+}

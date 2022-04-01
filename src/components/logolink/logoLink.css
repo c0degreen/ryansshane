@@ -1,0 +1,12 @@
+.rss__logoLink-logo {
+    background: var(--gradient-fill-ff);
+    background: var(--gradient-fill-sa);
+    background: var(--gradient-fill-op);
+    filter: var(--gradient-fill-ie-f);
+    background: var(--gradient-fill-ie-b);
+    background: var(--gradient-fill-gl);
+}
+
+.rss__logoLink {
+    cursor: pointer;
+}

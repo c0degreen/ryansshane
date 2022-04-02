@@ -10,7 +10,9 @@ const Partners = () => {
         <h2 data-title='Partners'>Partners</h2>
         <div className='rss__partners-rect_logos'>
           <LogoLink name='usspeedskating' href='https://usspeedskating.org' />
-          <LogoLink name='placeholde' link='https://placeholder' />
+          <LogoLink name='placeholder' link='https://placeholder' />
+          <LogoLink name='placeholder' link='https://placeholder' />
+          <LogoLink name='placeholder' link='https://placeholder' />
         </div>
       </div>
       <div className='rss__partners-tri'></div>

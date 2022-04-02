@@ -31,14 +31,5 @@
     --gradient-fill-gl:linear-gradient(90deg, rgba(122, 122, 122, 1) 0%, rgba(73, 73, 73, 1) 100%);
 
     /*logos*/
-    --toyota: url('../public/img/toyota.svg');
-    --hyland: url('../public/img/hyland.svg');
-    --youtube: url('../public/img/youtube.svg');
-    --strava: url('../public/img/strava.svg');
-    --instagram: url('../public/img/instagram.svg');
-
     --usspeedskating: url('../public/img/usspeedskating.svg');
-    --under-armour: url('https://upload.wikimedia.org/wikipedia/commons/4/44/Under_armour_logo.svg');
-    --toyota-color: url('https://upload.wikimedia.org/wikipedia/commons/9/9d/Toyota_carlogo.svg');
-    --hyland-color: url('https://www.hyland.com/-/media/Project/Hyland/Common/images/general/logos-hyland/hyland-logo.svg');
 }

@@ -9,6 +9,7 @@ const SponsorSocial = () => {
     <div class='rss__sponsorSocial'>
       <div class='rss__sponsorSocial-sponsors'>
         <LogoLink name='placeholder' href='https://placeholder' />
+        <LogoLink name='placeholder' href='https://placeholder' />
       </div>
       <div class='rss__sponsorSocial-line'></div>
       <div class='rss__sponsorSocial-socials'>

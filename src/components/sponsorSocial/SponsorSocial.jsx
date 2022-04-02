@@ -8,8 +8,7 @@ const SponsorSocial = () => {
   return (
     <div class='rss__sponsorSocial'>
       <div class='rss__sponsorSocial-sponsors'>
-        <LogoLink name='toyota' href='https://toyota.com' />
-        <LogoLink name='hyland' href='https://hyland.com' />
+        <LogoLink name='placeholder' href='https://placeholder' />
       </div>
       <div class='rss__sponsorSocial-line'></div>
       <div class='rss__sponsorSocial-socials'>

@@ -96,6 +96,8 @@
     height: 100vh;
 
     display: flex;
+    flex-direction: column;
+
     padding: 0 6em;
 
     position: relative;
@@ -104,6 +106,55 @@
 
     overflow: hidden;
     text-overflow: ellipsis;
+}
+
+.rss__aboutMe-text h1 {
+    background-color: var(--white);
+    color: var(--black);
+    font-size: 70px;
+    font-weight: 800;
+    line-height: 1;
+    mix-blend-mode: lighten;
+    padding: 0.25rem 0.3125rem 0.3125rem;
+    text-transform: uppercase;
+
+    height: fit-content;
+    width: fit-content;
+    max-width: 55%;
+}
+
+.rss__aboutMe-text h2 {
+    color: var(--white);
+    font-size: 55px;
+    width: fit-content;
+    max-width: 55%
+}
+
+.rss__aboutMe-text.one {
+    align-items: flex-start;
+    text-align: left;
+}
+
+.rss__aboutMe-text.one h2 {
+    text-shadow: 2px 2px 0 #FB258B;
+}
+
+.rss__aboutMe-text.two {
+    align-items: flex-end;
+    text-align: right;
+}
+
+.rss__aboutMe-text.two h2 {
+    text-shadow: 2px 2px 0 #5025FB;
+}
+
+.rss__aboutMe-text.three {
+    align-items: flex-start;
+    text-align: left;
+}
+
+.rss__aboutMe-text.three h2 {
+    text-shadow: 2px 2px 0 #FB258B;
 }
 
 @media screen and (max-width: 700px) {

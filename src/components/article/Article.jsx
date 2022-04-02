@@ -6,7 +6,7 @@ const Article = (props) => {
   return (
     <a href={props.href}><div className='rss__article'>
         <div className='rss__article-photo'>
-            <img src={props.src} alt='news image' />
+            <img src={props.src} alt='news' />
         </div>
         <div className='rss__article-content'>
           <h3>{props.title}</h3>

@@ -16,7 +16,7 @@ const AboutMeElement = (props) => {
           <img className='hover' src={props.hoverSrc} alt='' />
         </div>
       </div>
-        <div className='rss__aboutMe-text'>
+        <div className={`rss__aboutMe-text ${props.number}`}>
           {props.text}
         </div></>
 
@@ -29,7 +29,7 @@ const AboutMeElement = (props) => {
         <img src={props.src} alt='' />
       </div>
     </div>
-      <div className='rss__aboutMe-text'>
+      <div className={`rss__aboutMe-text ${props.number}`}>
         {props.text}
       </div></>
   )
@@ -39,14 +39,27 @@ const AboutMe = () => {
   return (
     <div className='rss__aboutMe' id='about'>
       <AboutMeElement number='one' text={
-        <h1>element1</h1>
+        <>
+          <h1>Upcoming Talent</h1>
+          <h2>Breakout season in 2021-22.</h2>
+          <h2>2x US Junior Championships Bronze.</h2>
+          <h2>8x A Finals in 3 races in 2021-22.</h2>
+          <h2>41.151 500m.</h2>
+        </>
       } src={about_one} />
       <AboutMeElement number='two' text={
-        <h1>element2</h1>
+        <>
+          <h1>Olympic Trials at 17y</h1>
+          <h2>One of 12 to earn an automatic Olympic Trials spot.</h2>
+          <h2>2x Olympic Trials Finalist.</h2>
+        </>
       } src={about_two} />
       <AboutMeElement number='three' text={
-        <><h1>element3</h1>
-        <h2>lwgdwuegbclwxbweibckkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkw;</h2></>
+        <>
+          <h1>Youngest Male National Team Member</h1>
+          <h2>Invited for the 2022-23 season.</h2>
+          <h2>Youngest of top 8 American men.</h2>
+        </>
       } src={about_three_one} hoverSrc={about_three_two} />
     </div>
   )

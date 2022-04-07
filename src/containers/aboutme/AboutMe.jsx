@@ -42,7 +42,8 @@ const AboutMe = () => {
       } src={about_two} />
       <AboutMeElement number='three' text={
         <>
-          <h1>Youngest Male National Team Member</h1>
+          <h1 className='desktop'>Youngest Male National Team Member</h1>
+          <h1 className='mobile'>Youngest Male NTP Member</h1>
           <h2>Invited for the 2022-23 season.</h2>
           <h2>Youngest of top 8 American men.</h2>
         </>

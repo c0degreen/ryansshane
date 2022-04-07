@@ -58,6 +58,14 @@
     
 }
 
+.desktop {
+    display: inline;
+}
+
+.mobile {
+    display: none;
+}
+
 .rss__aboutMe-photo_wrapper.one {
     transform: rotate(2deg);
 }
@@ -212,5 +220,13 @@
     
     .rss__aboutMe-text.three h2 {
         text-shadow: 2px 2px 0 #FB258B;
+    }
+
+    .mobile {
+        display: inline;
+    }
+
+    .desktop {
+        display: none;
     }
 }

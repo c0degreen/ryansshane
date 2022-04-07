@@ -35,3 +35,22 @@ a {
 .page_wrapper {
     min-height: 100vh;
 }
+
+
+.desktop {
+    display: inline;
+}
+
+.mobile {
+    display: none !important;
+}
+
+@media screen and (max-width: 550px) {
+    .mobile {
+        display: inline;
+    }
+
+    .desktop {
+        display: none !important;
+    }
+}

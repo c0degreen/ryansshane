@@ -38,7 +38,8 @@ const News = () => {
                     organization='WKYC Channel 3'
                     date='December 20, 2021'
                     title='Shaker Heights speed skater Ryan Shane to compete at US Olympic Trials' 
-                    content='Ryan Shane, a senior at Shaker Heights High School, is training for the Olympics in short-track speed skating. Jim Donovan has more on Ryan&#39;s quest for Beijing.' />
+                    content='Ryan Shane, a senior at Shaker Heights High School, is training for the Olympics in short-track speed skating. Jim Donovan has more on Ryan&#39;s quest for Beijing.'
+                    class='desktop' />
         </div>
       </div>
     </div>

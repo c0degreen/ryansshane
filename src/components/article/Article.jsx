@@ -4,7 +4,7 @@ import './article.css';
 
 const Article = (props) => {
   return (
-    <a href={props.href}><div className='rss__article'>
+    <a href={props.href}><div className={`rss__article ${props.class}`}>
         <div className='rss__article-photo'>
             <img src={props.src} alt='news' />
         </div>

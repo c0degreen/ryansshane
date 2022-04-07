@@ -55,14 +55,6 @@
         position: absolute;
         z-index: -2;
     }
-
-    .rss__aboutMe-photo_wrapper:hover .unhover {
-        visibility: hidden;
-    }
-
-    .rss__aboutMe-photo_wrapper:hover .hover {
-        visibility: visible;
-    }
     
 }
 
@@ -171,5 +163,54 @@
         max-height: 275px;
 
         width: calc(100% - 25px);
+    }
+    
+    .rss__aboutMe-text {
+        padding: 0 2em;
+    }
+
+    .rss__aboutMe-text h1 {
+        font-size: 45px;
+        font-weight: 800;
+        line-height: 1;
+        mix-blend-mode: lighten;
+        padding: 0 5px;
+    
+        max-width: 110%;
+    }
+
+    .rss__aboutMe-text h2 {
+        font-size: 35px;
+        line-height: 1;
+        margin: 10px 0;
+        width: fit-content;
+        max-width: 100%
+    }
+    
+    .rss__aboutMe-text.one {
+        align-items: flex-start;
+        text-align: left;
+    }
+    
+    .rss__aboutMe-text.one h2 {
+        text-shadow: 2px 2px 0 #FB258B;
+    }
+    
+    .rss__aboutMe-text.two {
+        align-items: flex-end;
+        text-align: right;
+    }
+    
+    .rss__aboutMe-text.two h2 {
+        text-shadow: 2px 2px 0 #5025FB;
+    }
+    
+    .rss__aboutMe-text.three {
+        align-items: flex-start;
+        text-align: left;
+    }
+    
+    .rss__aboutMe-text.three h2 {
+        text-shadow: 2px 2px 0 #FB258B;
     }
 }

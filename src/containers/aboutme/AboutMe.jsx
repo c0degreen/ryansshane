@@ -5,10 +5,8 @@ import './aboutMe.css';
 import about_one from '../../about-one.jpg';
 import about_two from '../../about-two.jpg';
 import about_three_one from '../../about-three-one.jpg';
-import about_three_two from '../../about-three-two.jpg';
 
 const AboutMeElement = (props) => {
-  if (props.hoverSrc !== undefined) {
     return (
       <><div className='rss__aboutMe-photo'>
         <div className={`rss__aboutMe-photo_wrapper ${props.number}`}>
@@ -20,19 +18,7 @@ const AboutMeElement = (props) => {
           {props.text}
         </div></>
 
-    );
-  }
-
-  return (
-    <><div className='rss__aboutMe-photo'>
-      <div className={`rss__aboutMe-photo_wrapper ${props.number}`}>
-        <img src={props.src} alt='' />
-      </div>
-    </div>
-      <div className={`rss__aboutMe-text ${props.number}`}>
-        {props.text}
-      </div></>
-  )
+    )
 }
 
 const AboutMe = () => {
@@ -60,7 +46,7 @@ const AboutMe = () => {
           <h2>Invited for the 2022-23 season.</h2>
           <h2>Youngest of top 8 American men.</h2>
         </>
-      } src={about_three_one} hoverSrc={about_three_two} />
+      } src={about_three_one} />
     </div>
   )
 }

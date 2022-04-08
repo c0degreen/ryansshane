@@ -21,7 +21,6 @@ const Sidebar = () => {
       <SidebarElement heading='6th, 2x Finalist' event='US Olympic Team Trials' detail='1500m'/>
       <SidebarElement heading='2x Bronze Medalist' event='US Junior National Championships' detail='1500m + 500m'/>
       <SidebarElement heading='4th, World Cup Team Alt.' event='US Fall World Cup Trials' detail='1000m'/>
-      <SidebarElement heading='National Team Member' event='US Short Track National Team' detail='2022-23'/>
     </div>
   )
 }

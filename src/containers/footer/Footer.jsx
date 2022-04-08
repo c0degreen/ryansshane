@@ -10,7 +10,7 @@ const Footer = () => {
           <p className='rss__footer-columnContainer_column_header'>Links</p>
           <p><a href='https://account.venmo.com/u/ryansshane'>Donate</a></p>
           <p><a href='./'>LinkInBio</a></p>
-          <p><a href='./'>empty</a></p>
+          <p><a href='./'>&nbsp;</a></p>
         </div>
         <div className='rss__footer-columnContainer_column'>
           <p className='rss__footer-columnContainer_column_header'>Social Media</p>
@@ -21,8 +21,8 @@ const Footer = () => {
         <div className='rss__footer-columnContainer_column'>
           <p className='rss__footer-columnContainer_column_header'>Contact</p>
           <p><a href='./'>contact@ryansshane.com</a></p>
-          <p><a href='./'>plaecholder</a></p>
-          <p><a href='./'>placeholeder</a></p>
+          <p><a href='./'>&nbsp;</a></p>
+          <p><a href='./'>&nbsp;</a></p>
         </div>
       </div>
       <div className='rss__footer-copyright'><p>&copy; Copyright {new Date().getFullYear()} Ryan Shane</p></div>

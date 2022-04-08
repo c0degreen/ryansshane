@@ -49,14 +49,6 @@ const AboutMe = () => {
           <h3>2x Olympic Trials Finalist.</h3>
         </>
       } src={about_two} />
-      <AboutMeElement number='three' text={
-        <>
-          <h2 className='desktop'>Youngest Male National Team Member</h2>
-          <h2 className='mobile'>Youngest Male NTP Member</h2>
-          <h3>Invited to National Team for the 2022-23 season.</h3>
-          <h3>Youngest of top 8 American men.</h3>
-        </>
-      } src={about_three_one} />
     </div>
   )
 }

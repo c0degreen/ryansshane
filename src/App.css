@@ -38,7 +38,7 @@ a {
 
 
 .desktop {
-    display: inline !important;
+    display: inline;
 }
 
 .mobile {

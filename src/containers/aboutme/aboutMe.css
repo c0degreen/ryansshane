@@ -58,6 +58,10 @@
     
 }
 
+.rss__aboutMe-photo_wrapper.zero {
+    transform: rotate(-3deg);
+}
+
 .rss__aboutMe-photo_wrapper.one {
     transform: rotate(2deg);
 }
@@ -100,7 +104,7 @@
     text-overflow: ellipsis;
 }
 
-.rss__aboutMe-text h1 {
+.rss__aboutMe-text h2 {
     background-color: var(--white);
     color: var(--black);
     font-size: 70px;
@@ -115,38 +119,31 @@
     max-width: 55%;
 }
 
-.rss__aboutMe-text h2 {
+.rss__aboutMe-text h3 {
     color: var(--white);
     font-size: 55px;
     width: fit-content;
-    max-width: 55%
+    max-width: 55%;
+    line-height: 1.2;
+    padding-top: 15px;
 }
 
-.rss__aboutMe-text.one {
+.rss__aboutMe-text.one, .rss__aboutMe-text.three {
     align-items: flex-start;
     text-align: left;
 }
 
-.rss__aboutMe-text.one h2 {
+.rss__aboutMe-text.one h3, .rss__aboutMe-text.three h3 {
     text-shadow: 2px 2px 0 #FB258B;
 }
 
-.rss__aboutMe-text.two {
+.rss__aboutMe-text.two, .rss__aboutMe-text.zero {
     align-items: flex-end;
     text-align: right;
 }
 
-.rss__aboutMe-text.two h2 {
+.rss__aboutMe-text.two h3, .rss__aboutMe-text.zero h3 {
     text-shadow: 2px 2px 0 #5025FB;
-}
-
-.rss__aboutMe-text.three {
-    align-items: flex-start;
-    text-align: left;
-}
-
-.rss__aboutMe-text.three h2 {
-    text-shadow: 2px 2px 0 #FB258B;
 }
 
 @media screen and (max-width: 700px) {
@@ -169,7 +166,7 @@
         padding: 0 2em;
     }
 
-    .rss__aboutMe-text h1 {
+    .rss__aboutMe-text h2 {
         font-size: 45px;
         font-weight: 800;
         line-height: 1;
@@ -179,7 +176,7 @@
         max-width: 110%;
     }
 
-    .rss__aboutMe-text h2 {
+    .rss__aboutMe-text h3 {
         font-size: 35px;
         line-height: 1;
         margin: 10px 0;
@@ -192,7 +189,7 @@
         text-align: left;
     }
     
-    .rss__aboutMe-text.one h2 {
+    .rss__aboutMe-text.one h3 {
         text-shadow: 2px 2px 0 #FB258B;
     }
     
@@ -201,7 +198,7 @@
         text-align: right;
     }
     
-    .rss__aboutMe-text.two h2 {
+    .rss__aboutMe-text.two h3 {
         text-shadow: 2px 2px 0 #5025FB;
     }
     
@@ -210,7 +207,7 @@
         text-align: left;
     }
     
-    .rss__aboutMe-text.three h2 {
+    .rss__aboutMe-text.three h3 {
         text-shadow: 2px 2px 0 #FB258B;
     }
 

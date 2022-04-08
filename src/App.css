@@ -38,7 +38,7 @@ a {
 
 
 .desktop {
-    display: inline;
+    display: inline !important;
 }
 
 .mobile {
@@ -47,7 +47,7 @@ a {
 
 @media screen and (max-width: 550px) {
     .mobile {
-        display: inline;
+        display: inline !important;
     }
 
     .desktop {

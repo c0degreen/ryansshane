@@ -57,6 +57,13 @@
 @media screen and (max-width: 550px) {
     .rss__navbar {
         padding: 2em;
+
+        justify-items: flex-start;
+    }
+
+    .rss__navbar-links {
+        width: 0;
+        flex: none;
     }
 
     .rss__navbar-logo img {
@@ -71,5 +78,58 @@
     .rss__navbar-menu {
         display: block;
     }
+
+    .rss__navbar-menu_container {
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        flex-direction: column;
+
+        font-weight: 700;
+        
+        text-align: end;
+        background: var(--black);
+        padding: 1rem 2rem;
+        position: absolute;
+        right: 1rem;
+        top: 80px;
+        margin-top: 1rem;
+        min-width: 210px;
+        border-radius: 5px;
+        z-index: 100;
+    }
+
+    .rss__navbar-menu_container a {
+        font-size: 30px;
+        color: var(--white);
+        font-family: var(--font-family);
+    }
     
+}
+
+.scale-up-center {
+	-webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+@-webkit-keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
 }

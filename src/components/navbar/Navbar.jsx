@@ -26,7 +26,7 @@ const Navbar = () => {
           : <RiMenu3Line color='var(--white)' size={27} onClick={() => setToggleMenu(true)} />}
       </div>
       {toggleMenu && (
-        <div className='rss__navbar-menu_container scale-up-center'>
+        <div className='rss__navbar-menu_container slide-bottom'>
             <a href='#navbar'>Home</a>
             <a href='#about'>About me</a>
             <a href='#news'>News</a>

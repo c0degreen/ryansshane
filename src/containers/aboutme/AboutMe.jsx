@@ -11,8 +11,7 @@ const AboutMeElement = (props) => {
     return (
       <><div className='rss__aboutMe-photo'>
         <div className={`rss__aboutMe-photo_wrapper ${props.number}`}>
-          <img className='unhover' src={props.src} alt='' />
-          <img className='hover' src={props.hoverSrc} alt='' />
+          <img src={props.src} alt='' />
         </div>
       </div>
         <div className={`rss__aboutMe-text ${props.number}`}>

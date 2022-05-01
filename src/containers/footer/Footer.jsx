@@ -22,10 +22,10 @@ const Footer = () => {
       </div>
       <div className='rss__footer-footer'>
         <div className='rss__footer-footer_links'>
-          <p><a>Instagram</a></p>
-          <p><a>Strava</a></p>
-          <p><a>YouTube</a></p>
-          <p><a>Email</a></p>
+          <a href='https://instagram.com/ryansshane'><p>Instagram</p></a>
+          <a href='https://www.strava.com/athletes/44531359'><p>Strava</p></a>
+          <a href='https://youtube.com/'><p>YouTube</p></a>
+          <a href='mailto:ryan@ryansshane.com'><p>Email</p></a>
         </div>
         <div className='rss__footer-footer_copyright'><p>&copy; Copyright {new Date().getFullYear()} Ryan Shane</p></div>
       </div>

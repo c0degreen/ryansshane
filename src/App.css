@@ -6,7 +6,17 @@
 }
 
 body {
-    background: var(--color-bg);
+    background: var(--black);
+    font-family: var(--font-family);
+    color: var(--white);
+}
+
+.serif {
+    font-family: var(--serif-family);
+}
+
+.black {
+    color: var(--black);
 }
 
 a {
@@ -32,25 +42,63 @@ a {
 
 }
 
-.page_wrapper {
-    min-height: 100vh;
+h1 {
+    font-size: clamp(3rem, 5rem, 7rem);
 }
 
-
-.desktop {
-    display: inline;
+h2 {
+    font-size: clamp(2rem, 4rem, 6rem);
 }
 
-.mobile {
-    display: none !important;
+h3 {
+    font-size: clamp(1.5rem, 2.5rem, 3.5rem);
 }
 
-@media screen and (max-width: 550px) {
-    .mobile {
-        display: inline !important;
-    }
+h4 {
+    font-size: clamp(1.25rem, 2rem, 2.75rem);
+}
 
-    .desktop {
-        display: none !important;
-    }
+p {
+    font-size: clamp(1rem, 1.5rem, 2rem);
+}
+
+b, .bold {
+    position: relative;
+    z-index: 0;
+
+    overflow: visible;
+    white-space: nowrap;
+}
+
+b::before, .bold::before {
+    color: var(--pink);
+    content: attr(data-title);
+    
+    position: absolute;
+    left: -0.25rem;
+    top: 0;
+    z-index: -1;
+
+    overflow: visible;
+    white-space: nowrap;
+}
+
+b::after, .bold::after {
+    color: var(--blue);
+    content: attr(data-title);
+
+    position: absolute;
+    left: 0.125rem;
+    top: 0.25rem;
+    z-index: -2;
+
+    overflow: visible;
+    white-space: nowrap;
+}
+
+.padding {
+    padding-left: 6rem;
+    padding-right: 6rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
 }

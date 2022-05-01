@@ -1,0 +1,9 @@
+.partner-logo {
+    width: 16rem;
+    height: 6.3rem;
+}
+
+.usspeedskating {
+    background: url('../../usspeedskating.svg') no-repeat center;
+    background-size: contain;
+}

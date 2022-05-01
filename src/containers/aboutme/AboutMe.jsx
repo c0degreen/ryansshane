@@ -24,7 +24,7 @@ const AboutMeElement = (props) => {
 
 const AboutMe = () => {
   return (
-    <div className='rss__aboutMe' id='about'>
+    <div className='rss__aboutMe padding' id='about'>
       <AboutMeElement number='zero' text={
         <>
           <h2>Starting Out</h2>

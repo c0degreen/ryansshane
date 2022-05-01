@@ -7,12 +7,10 @@ import alt_photo from '../../alt_photo.png';
 
 const News = () => {
   return (
-    <div className='rss__news page_wrapper' id='news'>
-      <div className='rss__news-heading'>
-        <h2><b data-title='Ryan Shane'>Ryan Shane</b> in the news</h2>
-      </div>
+    <div className='rss__news page_wrapper padding' id='news'>
+      <h1><b className='serif' data-title='Ryan Shane'>Ryan Shane</b> in the news</h1>
       <div className='rss__news-container'>
-        <div className='rss__news-container_groupA'>
+        <div className='groupA'>
         <Article  href='https://www.youtube.com/watch?v=9_HNyKEkiGY'
                   src='https://i.ytimg.com/vi/9_HNyKEkiGY/hq720.jpg' 
                   organization='WKYC Olympic Zone'
@@ -20,7 +18,7 @@ const News = () => {
                   title='Ryan Shane is a Power of Inspiration' 
                   content='On and off the ice, Shaker Heights senior Ryan Shane is a champion! Since the age of ten, Ryan has dedicated his life to making the U.S. Olympic Speedskating Team! The Northeast Ohio native moved out to Salt Lake City to train at the Utah Olympic Oval. Training thirty hours a week while taking classes virtually, the road is grueling with sacrifices made to pursue his dream. Thank you Ryan for being a Power of Inspiration!' />
         </div>
-        <div className='rss__news-container_groupB'>
+        <div className='groupB'>
           <Article  href='https://www.cleveland.com/community/2021/11/shaker-speedskater-ryan-shane-on-short-track-to-winter-olympic-bid-with-trials-awaiting.html'
                     src='https://www.cleveland.com/resizer/0IAewdcu5zLMvc4GWkB6A9SeoUY=/1280x0/smart/cloudfront-us-east-1.images.arcpublishing.com/advancelocal/EU7KJE56GJCYNPB72CMMGMQRPA.jpeg' 
                     organization='Cleveland.com'
@@ -32,7 +30,8 @@ const News = () => {
                     organization='Cleveland Jewish News'
                     date='October 14, 2021'
                     title='Shaker Heights senior qualifies for US Olympic Trials' 
-                    content='The road to the Olympics is daunting. Athletes of any sports need to constantly push their bodies to the limit, sacrifice sleep and social lives, and stay mentally healthy while pursuing their dream.' />
+                    content='The road to the Olympics is daunting. Athletes of any sports need to constantly push their bodies to the limit, sacrifice sleep and social lives, and stay mentally healthy while pursuing their dream.' 
+                    class='desktop' />
           <Article  href='https://www.wkyc.com/video/sports/olympics/shaker-heights-speed-skater-ryan-shane-to-compete-at-us-olympic-trials/95-6af4a55b-80e9-41f4-b24d-6881f6d1ed91'
                     src={alt_photo} 
                     organization='WKYC Channel 3'

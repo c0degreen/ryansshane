@@ -6,8 +6,8 @@ const TitleCard = () => {
   return (
     <div className='rss__titleCard'>
       <div className='rss__titleCard-text'>
-        <h1 data-title='Ryan Shane'>Ryan Shane</h1>
-        <h2>Short Track Speedskater</h2>
+        <h1 className='serif bold' data-title='Ryan Shane'>Ryan Shane</h1>
+        <h2 className='serif'>Short Track Speedskater</h2>
       </div>
       <div className='rss__titleCard-buttons'>
         <a className='rss__titleCard-buttons_about' href='#about'>About Me</a>

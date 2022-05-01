@@ -1,13 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;400;600;700;800;900&family=Caudex:wght@700&display=swap');
 
+html {
+    font-size: 1.25vw;
+}
+
 :root {
     --font-family: 'Catamaran', sans-serif;
-    --alt-family:  'Caudex', 'serif';
-
-    --color-bg: rgba(19, 15, 15, 1);
+    --serif-family:  'Caudex', 'serif';
 
     --white: #FDFDFD;
     --black: #1F1F1F;
+    --pink:  #FB258B;
+    --blue:  #5025FB;
+
     --transparent-white: rgba(255, 255, 255, 0.18);
     --transparent-black: rgba(0, 0, 0, 0.18);
 
@@ -29,7 +34,4 @@
 
     /* global 94%+ browsers support */
     --gradient-fill-gl:linear-gradient(90deg, rgba(122, 122, 122, 1) 0%, rgba(73, 73, 73, 1) 100%);
-
-    /*logos*/
-    --usspeedskating: url('../public/img/usspeedskating.svg');
 }

@@ -1,5 +1,8 @@
 .rss__sidebar {
-    height: 38rem;
+    height: 32rem;
+    width: fit-content;
+    padding-top: 0 !important;
+    padding-right: 0 !important;
 
     display: flex;
     flex-direction: column;

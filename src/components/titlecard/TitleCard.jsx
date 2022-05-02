@@ -10,8 +10,8 @@ const TitleCard = () => {
         <h2 className='serif'>Short Track Speedskater</h2>
       </div>
       <div className='rss__titleCard-buttons'>
-        <a className='rss__titleCard-buttons_about' href='#about'>About Me</a>
-        <a className='rss__titleCard-buttons_news' href='#news'>Latest News</a>
+        <a href='#about'>About Me</a>
+        <a href='#news'>Latest News</a>
       </div>
     </div>
   )

@@ -7,10 +7,8 @@ const SidebarElement = (props) => {
     <div className='rss__sidebarElement scale-up-center'>
       <h3 data-title={props.heading}>{props.heading}</h3>
       <div className='rss__sidebarElement-line'></div>
-      <div className='rss__sidebarElement-description'>
-        <h4>{props.event}</h4>
-        <p>{props.detail}</p>
-      </div>
+      <h4>{props.event}</h4>
+      <p>{props.detail}</p>
     </div>
   )
 }

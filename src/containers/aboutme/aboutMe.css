@@ -59,6 +59,7 @@
 
     overflow: hidden;
     text-overflow: ellipsis;
+    z-index: 1;
 }
 
 .rss__aboutMe-text h2 {

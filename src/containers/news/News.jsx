@@ -7,7 +7,7 @@ import alt_photo from '../../alt_photo.png';
 
 const News = () => {
   return (
-    <div className='rss__news page_wrapper padding' id='news'>
+    <div className='rss__news padding' id='news'>
       <h1><b className='serif' data-title='Ryan Shane'>Ryan Shane</b> in the news</h1>
       <div className='rss__news-container'>
         <div className='groupA'>

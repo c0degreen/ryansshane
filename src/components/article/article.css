@@ -54,3 +54,35 @@
 .rss__article-content_readMore {
     margin-bottom: 0 !important;
 }
+
+@media screen and (max-width: 550px) {
+    .rss__article-photo,
+    .rss__article-photo img {
+        height: 15rem;   
+    }
+    
+    .rss__article-content {    
+        padding: 1.5rem;
+    }
+    
+    .rss__article-content * {
+        margin-bottom: 0.4em;
+    }
+    
+    .rss__article-content h4 {
+        font-size: 2rem;
+        height: 4.4rem !important;
+        line-height: 2.2rem;
+        overflow: hidden;
+    }
+    
+    .rss__article-content p {
+        font-size: 1.75rem;
+        line-height: 1.85rem;
+        overflow: hidden;   
+    }
+
+    .rss__article-content_content {
+        height: 5.55rem !important;
+    }
+}

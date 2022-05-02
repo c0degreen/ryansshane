@@ -61,28 +61,6 @@ p {
     font-size: 1.5rem;
 }
 
-@media screen and (max-width: 550px) {
-    h1 {
-        font-size: 3rem;
-    }
-    
-    h2 {
-        font-size: 2.5rem;
-    }
-    
-    h3 {
-        font-size: 2rem;
-    }
-    
-    h4 {
-        font-size: 1.75rem;
-    }
-    
-    p {
-        font-size: 1.5rem;
-    }
-}
-
 b, .bold {
     position: relative;
     z-index: 0;
@@ -133,4 +111,41 @@ b::after, .bold::after {
     background-image: url('./pivot.jpg');
     background-size: contain;
     background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 550px) {
+    h1 {
+        font-size: 4rem;
+    }
+    
+    h2 {
+        font-size: 3.5rem;
+    }
+    
+    h3 {
+        font-size: 2.5rem;
+    }
+    
+    h4 {
+        font-size: 2rem;
+    }
+    
+    p {
+        font-size: 1.5rem;
+    }
+
+    .pivot {
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 65% center;
+    }
+
+    .page_wrapper {
+        height: 100vh;
+    }
+
+    .padding {
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
 }

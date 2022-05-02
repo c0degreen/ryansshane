@@ -149,3 +149,9 @@
             transform: scale(1);
 }
 }
+
+@media screen and (max-width: 550px) {
+    .rss__sidebar {
+        display: none;
+    }
+}

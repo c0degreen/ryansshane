@@ -13,3 +13,20 @@
 .rss__titleCard-text h2 {
     font-size: 2.5rem;
 }
+
+@media screen and (max-width: 550px) {
+    .rss__titleCard {
+        left: 0;
+        right: 0;
+        top: 70rem;
+        margin: 0 auto;
+    }
+
+    .rss__titleCard-text h1 {
+        font-size: 5rem;
+    }
+
+    .rss__titleCard-text h2 {
+        font-size: 3rem;
+    }
+}

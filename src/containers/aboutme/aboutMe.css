@@ -31,30 +31,6 @@
     height: 100%;
 }
 
-.rss__aboutMe-photo_wrapper:hover::before {
-    content: '';
-    width: 8px;
-    height: 562px;
-    top: -6px;
-    left: -14px;
-    background-color: #FB258B;
-
-    position: absolute;
-    z-index: -1;
-}
-
-.rss__aboutMe-photo_wrapper:hover::after {
-    content: '';
-    width: 862px;
-    height: 562px;
-    top: 2px;
-    right: -14px;
-    background-color: #5025FB;
-
-    position: absolute;
-    z-index: -2;
-}
-
 .rss__aboutMe-photo_wrapper.zero {
     transform: rotate(-3deg);
 }
@@ -113,7 +89,7 @@
 }
 
 .rss__aboutMe-text.one h3, .rss__aboutMe-text.three h3 {
-    text-shadow: 0.125rem 0.125rem 0 #FB258B;
+    text-shadow: 0.125rem 0.125rem 0 var(--pink);
 }
 
 .rss__aboutMe-text.two, .rss__aboutMe-text.zero {
@@ -122,5 +98,5 @@
 }
 
 .rss__aboutMe-text.two h3, .rss__aboutMe-text.zero h3 {
-    text-shadow: 0.125rem 0.125rem 0 #5025FB;
+    text-shadow: 0.125rem 0.125rem 0 var(--blue);
 }

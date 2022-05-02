@@ -1,62 +1,87 @@
-.rss__news {
-    display: flex;
-    flex-direction: column;
-}
+@media screen and (min-width: 551px) {
 
-.rss__news-container {
-    display: flex;
-    flex-direction: row;
-}
+    .rss__news {
+        display: flex;
+        flex-direction: column;
+    }
 
-.groupA {
-    flex: 0.75;
-    margin-right: 2rem;
-}
+    .rss__news-container {
+        display: flex;
+        flex-direction: row;
+    }
 
-.groupA .rss__article-content {
-    padding: 1.5rem 2rem;
-}
+    .groupA {
+        flex: 0.75;
+        margin-right: 2rem;
+    }
 
-.groupA h4 {
-    font-size: 2rem;
-    height: auto;
-}
+    .groupA .rss__article-content {
+        padding: 1.5rem 2rem;
+    }
 
-.groupA p {
-    font-size: 1.5rem;
-    line-height: 1.9rem;
-}
+    .groupA h4 {
+        font-size: 2rem;
+        height: auto;
+    }
 
-.groupA .rss__article {
-    height: min(100%, 50rem);
-}
+    .groupA p {
+        font-size: 1.5rem;
+        line-height: 1.9rem;
+    }
 
-.groupA .rss__article-photo,
-.groupA .rss__article-photo img {
-    height: clamp(12.5rem, 100%, 17.5rem);
-}
+    .groupA .rss__article {
+        height: min(100%, 50rem);
+    }
 
-.groupA .rss__article-content_content {
-    max-height: 17rem !important;
-    height: fit-content !important;
-}
+    .groupA .rss__article-photo,
+    .groupA .rss__article-photo img {
+        height: clamp(12.5rem, 100%, 17.5rem);
+    }
 
-.groupB {
-    flex: 1;
+    .groupA .rss__article-content_content {
+        max-height: 17rem !important;
+        height: fit-content !important;
+    }
 
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 2rem;
-    grid-auto-rows: 24rem;
-}
+    .groupB {
+        flex: 1;
 
-.groupB .rss__article-content_organization,
-.groupB .rss__article-content_date {
-    display: none;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 2rem;
+        grid-auto-rows: 24rem;
+    }
+
+    .groupB .rss__article-content_organization,
+    .groupB .rss__article-content_date {
+        display: none;
+    }
+
 }
 
 @media screen and (max-width: 550px) {
     .desktop {
         display: none !important;
+    }
+
+    .rss__news h1 {
+        margin-bottom: -0.5rem;
+        line-height: 1.1;
+    }
+     
+    .rss__news b::before {
+        line-height: 1.1;
+    }
+
+    .rss__news b::after {
+        line-height: 1.1;
+    }
+
+    .rss__article {
+        margin-top: 1rem;
+    }
+
+    .rss__article h4 {
+        height: auto;
     }
 }

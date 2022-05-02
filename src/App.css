@@ -39,7 +39,6 @@ a {
 
     /* global 92%+ browsers support */
     background:radial-gradient(circle at 3% 3%, rgba(53, 50, 50, 1) 0%, rgba(29, 25, 25, 1) 75%);
-
 }
 
 h1 {
@@ -101,4 +100,15 @@ b::after, .bold::after {
     padding-right: 6rem;
     padding-top: 4rem;
     padding-bottom: 4rem;
+}
+
+.pivot {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    background-image: url('./pivot.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
 }

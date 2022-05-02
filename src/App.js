@@ -7,7 +7,7 @@ import './App.css';
 
 const App = () => (
     <div className="App">
-    <Pivot />
+      <div className='pivot'></div>
       <div className='gradient__bg'>
         <div className='page_wrapper'>
           <Navbar />

@@ -30,8 +30,7 @@ const News = () => {
                     organization='Cleveland Jewish News'
                     date='October 14, 2021'
                     title='Shaker Heights senior qualifies for US Olympic Trials' 
-                    content='The road to the Olympics is daunting. Athletes of any sports need to constantly push their bodies to the limit, sacrifice sleep and social lives, and stay mentally healthy while pursuing their dream.' 
-                    class='desktop' />
+                    content='The road to the Olympics is daunting. Athletes of any sports need to constantly push their bodies to the limit, sacrifice sleep and social lives, and stay mentally healthy while pursuing their dream.' />
           <Article  href='https://www.wkyc.com/video/sports/olympics/shaker-heights-speed-skater-ryan-shane-to-compete-at-us-olympic-trials/95-6af4a55b-80e9-41f4-b24d-6881f6d1ed91'
                     src={alt_photo} 
                     organization='WKYC Channel 3'

@@ -107,10 +107,12 @@ b::after, .bold::after {
     top: 0;
     left: 0;
     height: 100vh;
+    max-height: calc(100vw/1.95);
     width: 100%;
     background-image: url('./pivot.jpg');
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
+    background-position: center center;
 }
 
 @media screen and (max-width: 550px) {
@@ -135,8 +137,7 @@ b::after, .bold::after {
     }
 
     .pivot {
-        background-size: cover;
-        background-repeat: no-repeat;
+        max-height: 100vh;
         background-position: 65% center;
     }
 

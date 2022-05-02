@@ -3,7 +3,7 @@
     width: fit-content;
     height: fit-content;
     left: 50rem;
-    top: 30rem;
+    top: calc(100vh - 10rem);
 
     display: flex;
     flex-direction: column;

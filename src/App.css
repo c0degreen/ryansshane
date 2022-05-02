@@ -41,7 +41,7 @@ a {
     background:radial-gradient(circle at 3% 3%, rgba(53, 50, 50, 1) 0%, rgba(29, 25, 25, 1) 75%);
 }
 
-h1 {
+h1, .h1 {
     font-size: 4.5rem;
 }
 
@@ -116,7 +116,7 @@ b::after, .bold::after {
 }
 
 @media screen and (max-width: 550px) {
-    h1 {
+    h1, .h1 {
         font-size: 4rem;
     }
     

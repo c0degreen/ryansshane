@@ -19,6 +19,7 @@ const Footer = () => {
         <div className='rss__footer-partners_logos'>
           <Partner name='usspeedskating' href='https://usspeedskating.org' />
         </div>
+        <p>Want to become a partner? Click <a href='mailto:partner@ryansshane.com'>here</a>.</p>
       </div>
       <div className='rss__footer-footer'>
         <div className='rss__footer-footer_links'>

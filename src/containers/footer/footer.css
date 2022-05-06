@@ -9,10 +9,15 @@
     clip-path: polygon(0 0, 100% 0, 100% calc(100% - 8vw), 0 100%);
     margin-bottom: -8vw;
 
-    height: 18rem;
+    height: 20rem;
     display: flex;
     flex-direction: column;
     align-items: center;    
+}
+
+.rss__footer-partners p {
+    font-size: 1.25rem;
+    padding-top: 1rem;
 }
 
 .rss__footer-partners:hover * {
@@ -22,6 +27,14 @@
 
     overflow: visible;
     white-space: nowrap;
+}
+
+.rss__footer-partners:hover p, .rss__footer-partners:hover a {
+    color: var(--black);
+}
+
+.rss__footer-partners a:hover {
+    color: var(--white);
 }
 
 .rss__footer-partners:hover *::before {
@@ -91,4 +104,10 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+}
+
+@media screen and (max-width: 550px) {
+    .rss__footer-partners {
+        height: 18rem;
+    }
 }

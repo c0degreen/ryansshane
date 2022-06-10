@@ -11,14 +11,21 @@ const News = () => {
       <h2 className='h1'><b className='serif' data-title='Ryan Shane'>Ryan Shane</b> in the news</h2>
       <div className='rss__news-container'>
         <div className='groupA'>
-        <Article  href='https://www.youtube.com/watch?v=9_HNyKEkiGY'
-                  src='https://i.ytimg.com/vi/9_HNyKEkiGY/hq720.jpg' 
-                  organization='WKYC Olympic Zone'
-                  date='February 9, 2022'
-                  title='Ryan Shane is a Power of Inspiration' 
-                  content='On and off the ice, Shaker Heights senior Ryan Shane is a champion! Since the age of ten, Ryan has dedicated his life to making the U.S. Olympic Speedskating Team! The Northeast Ohio native moved out to Salt Lake City to train at the Utah Olympic Oval. Training thirty hours a week while taking classes virtually, the road is grueling with sacrifices made to pursue his dream. Thank you Ryan for being a Power of Inspiration!' />
+          <Article href='https://www.cleveland.com/community/2022/06/shaker-heights-speedskater-ryan-shane-becomes-newest-member-of-us-national-team.html'
+                   src='https://www.cleveland.com/resizer/TRI1uw5jM_maIBosswT30zXIS4o=/800x0/smart/cloudfront-us-east-1.images.arcpublishing.com/advancelocal/3L4SG2BQVZEDZOLZTR32EVAQJU.jpeg'
+                   organization='Cleveland.com'
+                   date='June 8, 2022'
+                   title='Shaker Heights speedskater Ryan Shane becomes newest member of U.S. National Team'
+                   content='Speedskater and recent Shaker Heights High School graduate Ryan Shane has been named to the 2022-23 U.S. Short Track National Team. Shane joins the team following a breakout season that saw him compete in the U.S. Olympic Trials last December outside of Salt Lake City'
+          />
         </div>
         <div className='groupB'>
+          <Article  href='https://www.youtube.com/watch?v=9_HNyKEkiGY'
+                    src='https://i.ytimg.com/vi/9_HNyKEkiGY/hq720.jpg' 
+                    organization='WKYC Olympic Zone'
+                    date='February 9, 2022'
+                    title='Ryan Shane is a Power of Inspiration' 
+                    content='On and off the ice, Shaker Heights senior Ryan Shane is a champion! Since the age of ten, Ryan has dedicated his life to making the U.S. Olympic Speedskating Team! The Northeast Ohio native moved out to Salt Lake City to train at the Utah Olympic Oval. Training thirty hours a week while taking classes virtually, the road is grueling with sacrifices made to pursue his dream. Thank you Ryan for being a Power of Inspiration!' />
           <Article  href='https://www.cleveland.com/community/2021/11/shaker-speedskater-ryan-shane-on-short-track-to-winter-olympic-bid-with-trials-awaiting.html'
                     src='https://www.cleveland.com/resizer/0IAewdcu5zLMvc4GWkB6A9SeoUY=/1280x0/smart/cloudfront-us-east-1.images.arcpublishing.com/advancelocal/EU7KJE56GJCYNPB72CMMGMQRPA.jpeg' 
                     organization='Cleveland.com'

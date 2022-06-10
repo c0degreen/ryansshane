@@ -18,7 +18,7 @@ const Footer = () => {
         <h1 data-title='Partners'>Partners</h1>
         <div className='rss__footer-partners_logos'>
           <Partner name='filipandco' alt='Filip and Co. Fine Watches' href='https://filipandcowatches.com' />
-          <Partner name='kauligracing' alt='Kaulig Racing' href='https://kauligracing.com' />
+          <Partner name='kaulig' alt='Kaulig Companies' href='https://kauligcompanies.com' />
         </div>
         <p>Want to become a partner? Click <a href='mailto:partner@ryansshane.com'>here</a>.</p>
       </div>

@@ -9,7 +9,7 @@
     clip-path: polygon(0 0, 100% 0, 100% calc(100% - 8vw), 0 100%);
     margin-bottom: -8vw;
 
-    height: 20rem;
+    min-height: 20rem;
     display: flex;
     flex-direction: column;
     align-items: center;    
@@ -108,6 +108,10 @@
 
 @media screen and (max-width: 550px) {
     .rss__footer-partners {
-        height: 18rem;
+        height: 26rem;
+    }
+
+    .rss__footer-partners_logos {
+        flex-direction: column;
     }
 }

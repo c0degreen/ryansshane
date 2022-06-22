@@ -5,6 +5,8 @@
     align-items: center;
 
     padding: 3rem 6rem;
+
+    color: rgba(0, 0, 0, .7);
 }
 
 .rss__navbar-links {
@@ -30,7 +32,7 @@
     flex-direction: row;
 
     justify-content: space-between;
-    width: 51.5rem;
+    width: 45rem;
 }
 
 .rss__navbar-links_container a {

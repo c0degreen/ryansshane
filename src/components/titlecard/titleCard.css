@@ -1,4 +1,5 @@
 .rss__titleCard {
+    color: rgba(0, 0, 0, 0.9);
     position: absolute;
     width: fit-content;
     height: fit-content;

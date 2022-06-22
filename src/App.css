@@ -11,6 +11,10 @@ body {
     color: var(--white);
 }
 
+.page_wrapper {
+    height: 100vh;
+}
+
 .serif {
     font-family: var(--serif-family);
 }
@@ -139,6 +143,8 @@ b::after, .bold::after {
     .pivot {
         max-height: 100vh;
         background-position: 65% center;
+
+        background-image: url('./pivot-mobile.jpg');
     }
 
     .page_wrapper {

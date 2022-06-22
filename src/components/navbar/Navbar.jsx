@@ -22,8 +22,8 @@ const Navbar = () => {
       </div>
       <div className='rss__navbar-menu'>
         {toggleMenu
-          ? <RiCloseLine color='var(--white)' size={27} onClick={() => setToggleMenu(false)} />
-          : <RiMenu3Line color='var(--white)' size={27} onClick={() => setToggleMenu(true)} />}
+          ? <RiCloseLine color='var(--black)' size={27} onClick={() => setToggleMenu(false)} />
+          : <RiMenu3Line color='var(--black)' size={27} onClick={() => setToggleMenu(true)} />}
       </div>
       {toggleMenu && (
         <div className='rss__navbar-menu_container slide-bottom'>

@@ -1,5 +1,5 @@
 .rss__titleCard {
-    color: rgba(0, 0, 0, 0.9);
+    color: var(--black);
     position: absolute;
     width: fit-content;
     height: fit-content;
@@ -12,11 +12,15 @@
 }
 
 .rss__titleCard-text h2 {
+    color: rgba(0, 0, 0, 0.9);
+
     font-size: 2.5rem;
 }
 
 @media screen and (max-width: 550px) {
     .rss__titleCard {
+        color: var(--white);
+        
         left: 0;
         right: 0;
         bottom: 5rem;

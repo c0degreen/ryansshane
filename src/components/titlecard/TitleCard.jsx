@@ -6,7 +6,7 @@ const TitleCard = () => {
   return (
     <div className='rss__titleCard'>
       <div className='rss__titleCard-text'>
-        <h1 className='serif bold' data-title='Ryan Shane'>Ryan Shane</h1>
+        <h1 className='serif bolder' data-title='Ryan Shane'>Ryan Shane</h1>
         <h2 className='serif black'>Short Track Speedskater</h2>
       </div> 
     </div>

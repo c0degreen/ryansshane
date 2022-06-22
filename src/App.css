@@ -65,7 +65,7 @@ p {
     font-size: 1.5rem;
 }
 
-b, .bold {
+b, .bold, .bolder {
     position: relative;
     z-index: 0;
 
@@ -73,7 +73,7 @@ b, .bold {
     white-space: nowrap;
 }
 
-b::before, .bold::before {
+b::before, .bold::before, .bolder::before {
     color: var(--pink);
     content: attr(data-title);
     
@@ -86,7 +86,7 @@ b::before, .bold::before {
     white-space: nowrap;
 }
 
-b::after, .bold::after {
+b::after, .bold::after, .bolder::after {
     color: var(--blue);
     content: attr(data-title);
 
@@ -154,5 +154,15 @@ b::after, .bold::after {
     .padding {
         padding-left: 4rem;
         padding-right: 4rem;
+    }
+
+    .bolder::before {
+        left: -0.4rem !important;
+        top: 0 !important;
+    }
+
+    .bolder::after {
+        left: 0.25rem !important;
+        top: 0.25rem !important;
     }
 }

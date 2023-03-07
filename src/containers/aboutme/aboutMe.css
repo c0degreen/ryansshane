@@ -68,7 +68,7 @@
 .rss__aboutMe-text h2 {
     background-color: var(--white);
     color: var(--black);
-    font-size: 4.375rem;
+    font-size: 4.275rem;
     font-weight: 800;
     line-height: 1;
     mix-blend-mode: lighten;
@@ -81,7 +81,7 @@
 
 .rss__aboutMe-text h3 {
     text-shadow: 0.125rem 0.125rem 0 var(--white);
-    font-size: 3.45rem;
+    font-size: 3rem;
     width: fit-content;
     line-height: 1.2;
     padding-top: 0.9rem;
@@ -107,12 +107,12 @@
 
 @media screen and (max-width: 550px) {
     .rss__aboutMe-text h2 {
-        font-size: 4rem;
+        font-size: 3.9rem;
         padding: 0.25rem 0.3125rem;
     }
     
     .rss__aboutMe-text h3 {
-        font-size: 2.85rem;
+        font-size: 2.4rem;
         padding-top: 0.7rem;
     }    
 }

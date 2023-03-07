@@ -14,7 +14,7 @@
 .rss__titleCard-text h2 {
     color: rgba(0, 0, 0, 0.9);
 
-    font-size: 2.5rem;
+    font-size: 2.3rem;
 }
 
 @media screen and (max-width: 550px) {
@@ -32,6 +32,6 @@
     }
 
     .rss__titleCard-text h2 {
-        font-size: 3rem;
+        font-size: 2.8rem;
     }
 }

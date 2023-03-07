@@ -47,6 +47,7 @@
 
 .rss__aboutMe-photo_wrapper.three {
     transform: rotate(1deg);
+    width: 53.125rem;
 }
 
 .rss__aboutMe-text {
@@ -79,7 +80,7 @@
 }
 
 .rss__aboutMe-text h3 {
-    color: var(--white);
+    text-shadow: 0.125rem 0.125rem 0 var(--white);
     font-size: 3.45rem;
     width: fit-content;
     line-height: 1.2;
@@ -92,7 +93,7 @@
 }
 
 .rss__aboutMe-text.one h3, .rss__aboutMe-text.three h3 {
-    text-shadow: 0.125rem 0.125rem 0 var(--pink);
+    color: var(--blue);
 }
 
 .rss__aboutMe-text.two, .rss__aboutMe-text.zero {
@@ -101,7 +102,7 @@
 }
 
 .rss__aboutMe-text.two h3, .rss__aboutMe-text.zero h3 {
-    text-shadow: 0.125rem 0.125rem 0 var(--blue);
+    color: var(--pink);
 }
 
 @media screen and (max-width: 550px) {

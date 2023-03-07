@@ -5,7 +5,7 @@ import './aboutMe.css';
 import about_child from '../../about-child.jpg';
 import about_one from '../../about-one.jpg';
 import about_two from '../../about-two.jpg';
-import about_three_one from '../../about-three-one.jpg';
+import about_three from '../../about-three.jpg';
 
 const AboutMeElement = (props) => {
     return (
@@ -43,11 +43,18 @@ const AboutMe = () => {
       <AboutMeElement number='two' text={
         <>
           <h2>Junior Star</h2>
-          <h3>2023 World Junior Championship Bronze Medalist.</h3>
+          <h3>2023 World Junior Bronze Medalist.</h3>
           <h3>5x US Junior Medalist.</h3>
           <h3>2023 World Junior and Junior National Team.</h3>
         </>
       } src={about_two} />
+      <AboutMeElement number='three' text={
+        <>
+          <h2>Dual Careers</h2>
+          <h3>Fine dining Chef de Partie.</h3>
+          <h3>Currently working at Cucina Wine Bar.</h3>
+        </>
+      } src={about_three} />
     </div>
   )
 }

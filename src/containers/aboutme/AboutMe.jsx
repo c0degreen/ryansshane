@@ -38,7 +38,6 @@ const AboutMe = () => {
           <h3>2x Olympic Trials Finalist.</h3>
           <h3>2022-23 World Cup Team.</h3>
           <h3>Joined US National Team in 2022.</h3>
-          <h3>41.151 500m.</h3>
         </>
       } src={about_one} />
       <AboutMeElement number='two' text={

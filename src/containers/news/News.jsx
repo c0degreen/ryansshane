@@ -13,7 +13,7 @@ const News = () => {
         <div className='groupA'>
         <Article href='https://www.teamusa.org/US-Speedskating/News/Featured-News/2023/January/30/Marcus-Howard-Captures-Pair-Of-Medals-At-Short-Track-Junior-Worlds'
                    src='https://www.teamusa.org/-/media/US_Speedskating/News-Story-Photos/2022/Short-Track/ST-jr-WCH.jpg?h=756&la=en&w=828&hash=1BA2BF5F747AF5BCAEA6680472C0300E2F316FFC'
-                   organization='TeamUSA.com'
+                   organization='TeamUSA.org'
                    date='January 30, 2023'
                    title='USA captures pair of medals at Short Track Junior Worlds'
                    content='Marcus Howard teamed up with Seung-Min Kwon, Justin Liu and Ryan Shane for a third-place finish in the 3000m Relay. They finished with a time of 4:01.863, trailing winner South Korea and Japan.'

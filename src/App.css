@@ -28,7 +28,20 @@ a {
     text-decoration: none;
 }
 
+.pivot {
+    height: 100vh;
+    max-height: calc(100vw/1.95);
+    width: 100%;
+    background-image: url('./pivot.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
 .gradient__bg {
+    height: fit-content;
+    width: 100%;
+
     /* ff 3.6+ */
     background:-moz-radial-gradient(circle at 3% 3%, rgba(53, 50, 50, 1) 0%, rgba(29, 25, 25, 1) 75%);
 
@@ -63,19 +76,6 @@ h4 {
 
 p {
     font-size: 1.2rem;
-}
-
-.pivot {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100vh;
-    max-height: calc(100vw/1.95);
-    width: 100%;
-    background-image: url('./pivot.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
 }
 
 @media screen and (max-width: 550px) {

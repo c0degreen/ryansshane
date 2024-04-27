@@ -48,13 +48,6 @@ const AboutMe = () => {
           <h3>2023 World Junior and Junior National Team.</h3>
         </>
       } src={about_two} />
-      <AboutMeElement number='three' text={
-        <>
-          <h2>Dual Careers</h2>
-          <h3>Fine dining Chef de Partie.</h3>
-          <h3>Currently working at Cucina Wine Bar.</h3>
-        </>
-      } src={about_three} />
     </div>
   )
 }

@@ -61,12 +61,18 @@ const Content = () => {
           </div>
           <div className='rss__imageCol'>
             <div className='rss__image content8'>
-              <div>description</div>
+              <div>
+                trained in the best kitchens in the country.<br/>
+                including Smyth, Jont, Ever, and Boka.
+              </div>
             </div>
           </div>
           <div className='rss__imageCol'>
             <div className='rss__image content9'>
-              <div>description</div>
+              <div>
+                former junior sous chef at Oquirrh.<br/>
+                former chef de partie at Oquirrh, and Cucina Wine Bar.
+              </div>
             </div>
             <div className='rss__image content10'>
               <div>description</div>

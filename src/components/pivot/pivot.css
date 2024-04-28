@@ -23,7 +23,7 @@
 
     background-position: 65% center;
 
-    background-image: url('./pivot-mobile.jpg');
+    background-image: url('../../resources/pivot-mobile.jpg');
 
     scroll-snap-align: start;
 }
@@ -50,6 +50,6 @@
     }
 
     .rss__pivot {
-        background: var(--white) url('./pivot.jpg') no-repeat fixed center center;  
+        background: var(--white) url('../../resources/pivot.jpg') no-repeat fixed center center;  
     }
 }

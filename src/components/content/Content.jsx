@@ -6,11 +6,23 @@ const Content = () => {
   return (
     <div className='rss__content'>
       <div className='rss__contentWrapper'>
-        <h3>speedskater.</h3>
-        <h4>us national team.</h4>
-        <p>junior world bronze medalist.</p>
-        <p>world cup team member.</p>
-        <p>olympic trials finalist.</p>
+        <div>
+          <h3>speedskater.</h3>
+          <h4>us national team.</h4>
+        </div>
+        <div className='rss__imageWrapper'>
+          <div className='rss__imageCol'>
+            <div className='rss__image'></div>
+            <div className='rss__image'></div>
+          </div>
+          <div className='rss__imageCol'>
+            <div className='rss__image'></div>
+            <div className='rss__image image3'></div>
+          </div>
+          <div className='rss__imageCol'>
+            <div className='rss__image'></div>
+          </div>
+        </div>
       </div>
       <div className='rss__contentWrapper'>
         <h3>cusinier.</h3>

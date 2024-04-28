@@ -1,6 +1,6 @@
 @font-face {
     font-family: bauer;
-    src: url("./Bauer\ Bodoni\ Regular.otf") format("opentype");
+    src: url("./resources/bauer.otf") format("opentype");
 }
 
 html {

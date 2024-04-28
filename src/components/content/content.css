@@ -6,4 +6,33 @@
     padding: 5vh;
 
     scroll-snap-align: start;
+
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.rss__imageWrapper {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: stretch;
+    align-content: stretch;
+
+    height: 100%;
+
+    gap: 1em; 
+}
+
+.rss__imageCol {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 100%;
+
+    gap: 1em;
+}
+
+.rss__image {
+    height: 100%;
+    width: 100%;
+    background-color: green;
 }

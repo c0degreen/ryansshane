@@ -6,9 +6,9 @@ function Pivot () {
   const [background, setBackground] = useState('rss__coverUp image');
 
   const listenScrollEvent = event => {
-    if (window.scrollY <  10) {
+    if (window.scrollY <  5) {
       return setBackground('rss__coverUp image');
-    } else if (window.scrollY > 10) {
+    } else if (window.scrollY > 5) {
       return setBackground('rss__coverUp color');
     }
   };

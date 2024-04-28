@@ -20,25 +20,4 @@ html {
     --black: #1F1F1F;
     --tan: #EBE5D8;
 
-    --transparent-white: rgba(255, 255, 255, 0.18);
-    --transparent-black: rgba(0, 0, 0, 0.18);
-
-    /* gradient fill */
-    /* ff 3.6+ */
-    --gradient-fill-ff:-moz-linear-gradient(90deg, rgba(122, 122, 122, 1) 0%, rgba(73, 73, 73, 1) 100%); 
-
-    /* safari 5.1+,chrome 10+ */
-    --gradient-fill-sa:-webkit-linear-gradient(90deg, rgba(122, 122, 122, 1) 0%, rgba(73, 73, 73, 1) 100%);
-
-    /* opera 11.10+ */
-    --gradient-fill-op:-o-linear-gradient(90deg, rgba(122, 122, 122, 1) 0%, rgba(73, 73, 73, 1) 100%);
-
-    /* ie 6-9 */
-    --gradient-fill-ie-f: progid:DXImageTransform.Microsoft.gradient( startColorstr='#494949', endColorstr='#7A7A7A', GradientType=0 );
-
-    /* ie 10+ */
-    --gradient-fill-ie-b:-ms-linear-gradient(90deg, rgba(122, 122, 122, 1) 0%, rgba(73, 73, 73, 1) 100%);
-
-    /* global 94%+ browsers support */
-    --gradient-fill-gl:linear-gradient(90deg, rgba(122, 122, 122, 1) 0%, rgba(73, 73, 73, 1) 100%);
 }

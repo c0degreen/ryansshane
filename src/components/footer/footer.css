@@ -26,3 +26,7 @@
     flex-direction: row;
     justify-content: space-around;
 }
+
+.rss__footer_links * , .rss__footer_copyright * {
+    font-size: 1rem;
+}

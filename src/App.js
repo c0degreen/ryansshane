@@ -1,13 +1,13 @@
 import React from 'react'
 
-import { Pivot, TitleCard } from './components';
-import { Footer } from './containers';
+import { Content, Footer, Pivot } from './components';
 
 import './App.css';
 
 const App = () => (
     <div>
       <Pivot />
+      <Content />
       <Footer />
     </div>
   );

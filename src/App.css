@@ -5,14 +5,11 @@
     scroll-behavior: smooth;
 }
 
-body {
+html, body {
+    height: 100%;
     background: var(--white);
     font-family: var(--font-family);
     color: var(--black);
-}
-
-.page_wrapper {
-    height: 100vh;
 }
 
 .black {
@@ -30,12 +27,12 @@ a {
 
 .pivot {
     height: 100vh;
-    max-height: calc(100vw/1.95);
     width: 100%;
     background-image: url('./pivot.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
+    background-attachment: fixed;
 }
 
 .gradient__bg {
@@ -46,24 +43,25 @@ a {
     background: linear-gradient(180deg, #fff 0%, var(--white) 10%, var(--tan) 50%); 
 }
 
-h1, .h1 {
-    font-size: 4.5rem;
+h1 {
+    font-size: 30rem;
 }
 
 h2 {
-    font-size: 3.5rem;
+    font-size: 19rem;
+    line-height: 44rem;
 }
 
 h3 {
-    font-size: 2.5rem;
-}
-
-h4 {
     font-size: 2rem;
 }
 
+h4 {
+    font-size: 1.5rem;
+}
+
 p {
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 @media screen and (max-width: 550px) {

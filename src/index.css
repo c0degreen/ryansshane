@@ -1,7 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,700&family=Playfair+Display:wght@600&family=Poppins:wght@600&family=Unna:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@font-face {
+    font-family: bauer;
+    src: url("./Bauer\ Bodoni\ Regular.otf") format("opentype");
+}
 
 html {
-    font-size: 1.25vw;
+    font-size: calc(0.8vw + 0.8vh);
 }
 
 @media screen and (max-width: 550px) {
@@ -11,7 +14,7 @@ html {
 }
 
 :root {
-    --font-family:  'Unna', 'serif';
+   --font-family:  'bauer';
 
     --white: #FDFDFD;
     --black: #1F1F1F;

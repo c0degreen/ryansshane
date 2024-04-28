@@ -32,7 +32,7 @@ a {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    background-attachment: fixed;
+    background-attachment: fixed;   
 }
 
 .gradient__bg {
@@ -49,7 +49,7 @@ h1 {
 
 h2 {
     font-size: 19rem;
-    line-height: 44rem;
+    margin-top: 9rem;
 }
 
 h3 {
@@ -65,12 +65,13 @@ p {
 }
 
 @media screen and (max-width: 550px) {
-    h1, .h1 {
-        font-size: 4rem;
+    h1 {
+        font-size: 15rem;
     }
     
     h2 {
-        font-size: 3.5rem;
+        font-size: 10rem;
+        margin-top: 5rem;
     }
     
     h3 {
@@ -90,10 +91,6 @@ p {
         background-position: 65% center;
 
         background-image: url('./pivot-mobile.jpg');
-    }
-
-    .page_wrapper {
-        height: 100vh;
     }
 
 }

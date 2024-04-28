@@ -13,7 +13,7 @@ const Content = () => {
         <p>olympic trials finalist.</p>
       </div>
       <div className='rss__contentWrapper'>
-        <h3>chef.</h3>
+        <h3>cusinier.</h3>
         <h4>chef de partie in fine dining.</h4>
         <p>current restaurant coming soon...</p>
         <p>formerly junior sous chef at Oquirrh.</p>

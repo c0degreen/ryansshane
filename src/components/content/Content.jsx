@@ -12,25 +12,54 @@ const Content = () => {
         </div>
         <div className='rss__imageWrapper'>
           <div className='rss__imageCol'>
-            <div className='rss__image'></div>
-            <div className='rss__image'></div>
+            <div className='rss__image content1'>
+              <div>description</div>
+            </div>
           </div>
           <div className='rss__imageCol'>
-            <div className='rss__image'></div>
-            <div className='rss__image image3'></div>
+            <div className='rss__image content2'>
+              <div>description</div>
+            </div>
+            <div className='rss__image threeQua content3'>
+              <div>description</div>
+            </div>
           </div>
           <div className='rss__imageCol'>
-            <div className='rss__image'></div>
+            <div className='rss__image content4'>
+              <div>description</div>
+            </div>
+            <div className='rss__image content5'>
+              <div>description</div>
+            </div>
           </div>
         </div>
       </div>
       <div className='rss__contentWrapper'>
         <h3>cusinier.</h3>
         <h4>chef de partie in fine dining.</h4>
-        <p>current restaurant coming soon...</p>
-        <p>formerly junior sous chef at Oquirrh.</p>
-        <p>formerly chef de partie at Cucina Wine Bar.</p>
-        <p>trained in Michelin-starred kitchens, including Smyth, Boka, Jont and Ever.</p>
+        <div className='rss__imageWrapper'>
+          <div className='rss__imageCol'>
+            <div className='rss__image content6'>
+              <div>description</div>
+            </div>
+            <div className='rss__image content7'>
+              <div>description</div>
+            </div>
+          </div>
+          <div className='rss__imageCol'>
+            <div className='rss__image content8'>
+              <div>description</div>
+            </div>
+          </div>
+          <div className='rss__imageCol'>
+            <div className='rss__image content9'>
+              <div>description</div>
+            </div>
+            <div className='rss__image content10'>
+              <div>description</div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   )

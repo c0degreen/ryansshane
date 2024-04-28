@@ -1,6 +1,3 @@
-.rss__content {
-}
-
 .rss__contentWrapper {
     height: 100vh;
     padding: 5vh;
@@ -13,7 +10,7 @@
 
 .rss__imageWrapper {
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: column nowrap;
     justify-content: space-between;
     align-items: stretch;
     align-content: stretch;
@@ -25,8 +22,9 @@
 
 .rss__imageCol {
     display: flex;
-    flex-flow: column nowrap;
+    flex-flow: row nowrap;
     width: 100%;
+    height: 100%;
 
     gap: 1em;
 }
@@ -34,5 +32,86 @@
 .rss__image {
     height: 100%;
     width: 100%;
-    background-color: green;
+    background: var(--white) url() no-repeat center center;
+    background-size: cover;
+}
+
+.rss__image div {
+    height: 100%;
+    width: 100%;
+    background-color: var(--black);
+    opacity: 0;
+
+    transition: opacity 0.8s;
+    color: var(--white);
+
+    padding: 0.25em 0.25em 0.4em 0.4em;
+}
+
+.rss__image:hover div {
+    opacity: 0.5;
+}
+
+.rss__image.half {
+    flex-shrink: 2;
+}
+
+.rss__image.twoThird {
+    flex-shrink: 1.5;
+}
+
+.rss__image.threeQua {
+    flex-shrink: calc(4/3);
+}
+
+.content1 {
+    background-image: url('../../resources/content1.jpg');
+}
+
+.content2 {
+    background-image: url('../../resources/content2.jpg');
+}
+
+.content3 {
+    background-image: url('../../resources/content3.jpg');
+}
+
+.content4 {
+    background-image: url('../../resources/content4.jpg');
+}
+
+.content5 {
+    background-image: url('../../resources/content5.jpg');
+}
+
+.content6 {
+    background-image: url('../../resources/content6.jpg');
+}
+
+.content7 {
+    background-image: url('../../resources/content7.jpg');
+}
+
+.content8 {
+    background-image: url('../../resources/content8.jpg');
+}
+
+.content9 {
+    background-image: url('../../resources/content9.jpg');
+}
+
+.content10 {
+    background-image: url('../../resources/content10.jpg');
+}
+
+@media only screen and (min-width: 768px) {
+
+    .rss__imageWrapper {
+        flex-flow: row nowrap;
+    }
+
+    .rss__imageCol {
+        flex-flow: column nowrap;
+    }
+
 }

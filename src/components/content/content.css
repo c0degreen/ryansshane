@@ -70,38 +70,47 @@
 
 .content2 {
     background-image: url('../../resources/content2.jpg');
+    background-position: 50% 10%;
 }
 
 .content3 {
     background-image: url('../../resources/content3.jpg');
+    background-position: 25% 50%;
 }
 
 .content4 {
     background-image: url('../../resources/content4.jpg');
+    background-position: 85% 50%;
 }
 
 .content5 {
     background-image: url('../../resources/content5.jpg');
+    background-position: 50% 80%;
 }
 
 .content6 {
     background-image: url('../../resources/content6.jpg');
+    background-position: 50% 40%;
 }
 
 .content7 {
     background-image: url('../../resources/content7.jpg');
+    background-position: 50% 40%;
 }
 
 .content8 {
     background-image: url('../../resources/content8.jpg');
+    background-position: 50% 30%;
 }
 
 .content9 {
     background-image: url('../../resources/content9.jpg');
+    background-position: 50% 80%;
 }
 
 .content10 {
     background-image: url('../../resources/content10.jpg');
+    background-position: 40% 80%;
 }
 
 @media only screen and (min-width: 768px) {

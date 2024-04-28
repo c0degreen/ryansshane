@@ -10,6 +10,8 @@ html, body {
     background: var(--tan);
     font-family: var(--font-family);
     color: var(--black);
+
+    scroll-snap-type: y mandatory;
 }
 
 .black {

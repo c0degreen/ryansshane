@@ -21,6 +21,8 @@
 
     background: var(--white) url('./pivot.jpg') no-repeat fixed center center;  
     background-size: cover;
+
+    scroll-snap-align: start;
 }
 
 .rss__coverUp {

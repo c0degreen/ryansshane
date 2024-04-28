@@ -1,7 +1,7 @@
 .rss__titleCard {
     width: 100%;
-    height: 80vh;
-    margin-bottom: 20vh;
+
+    height: 100vh;
 
     display: flex;
     flex-direction: row;
@@ -19,8 +19,11 @@
     height: 100vh;
     width: 100%;
 
-    background: var(--white) url('./pivot.jpg') no-repeat fixed center center;  
     background-size: cover;
+
+    background-position: 65% center;
+
+    background-image: url('./pivot-mobile.jpg');
 
     scroll-snap-align: start;
 }
@@ -40,14 +43,13 @@
     opacity: 0;
 }
 
-@media screen and (max-width: 1000px) {
+@media only screen and (min-width: 768px) {
     .rss__titleCard {
-        height: 100vh;
+        height: 80vh;
+        margin-bottom: 20vh;
     }
 
     .rss__pivot {
-        background-position: 65% center;
-
-        background-image: url('./pivot-mobile.jpg');
+        background: var(--white) url('./pivot.jpg') no-repeat fixed center center;  
     }
 }

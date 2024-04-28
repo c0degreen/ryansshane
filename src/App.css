@@ -28,49 +28,49 @@ a {
 }
 
 h1 {
-    font-size: 30rem;
+    font-size: 15rem;
 }
 
 h2 {
-    font-size: 19rem;
-    margin-top: 9rem;
+    font-size: 10rem;
+    margin-top: 5rem;
 }
 
 h3 {
-    font-size: 10rem;
-    line-height: 8rem;
+    font-size: 7rem;
 }
 
 h4 {
-    font-size: 4rem;
-    line-height: 6rem;
+    font-size: 4.5rem;
 }
 
 p {
     font-size: 2rem;
 }
 
-@media screen and (max-width: 1000px) {
+@media only screen and (min-width: 768px) {
+    
     h1 {
-        font-size: 15rem;
+        font-size: 30rem;
     }
     
     h2 {
-        font-size: 10rem;
-        margin-top: 5rem;
+        font-size: 19rem;
+        margin-top: 9rem;
     }
     
     h3 {
-        font-size: 7rem;
+        font-size: 10rem;
+        line-height: 8rem;
     }
     
     h4 {
-        font-size: 4.5rem;
+        font-size: 4rem;
+        line-height: 6rem;
     }
     
     p {
         font-size: 2rem;
     }
-
 
 }

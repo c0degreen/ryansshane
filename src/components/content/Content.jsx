@@ -13,23 +13,36 @@ const Content = () => {
         <div className='rss__imageWrapper'>
           <div className='rss__imageCol'>
             <div className='rss__image content1'>
-              <div>description</div>
+              <div>
+                US National Team member since 2022.<br/>
+                World Cup Team member 2022-23.<br/>
+                US Junior National Team member 2023-24.
+              </div>
             </div>
           </div>
           <div className='rss__imageCol'>
             <div className='rss__image content2'>
-              <div>description</div>
+              <div>
+                US Junior Vice Champion 2023. <br/>
+                3x US Junior Medalist.
+              </div>
             </div>
-            <div className='rss__image threeQua content3'>
-              <div>description</div>
+            <div className='rss__image twoThird content3'>
+              <div>
+                2x Olympic Trials Finalist.
+              </div>
             </div>
           </div>
           <div className='rss__imageCol'>
-            <div className='rss__image content4'>
-              <div>description</div>
+            <div className='rss__image threeQua content4'>
+              <div>
+                World Junior Bronze Medalist 2023.
+              </div>
             </div>
             <div className='rss__image content5'>
-              <div>description</div>
+              <div>
+                World Junior Championships Bronze Medal.
+              </div>
             </div>
           </div>
         </div>
@@ -39,7 +52,7 @@ const Content = () => {
         <h4>chef de partie in fine dining.</h4>
         <div className='rss__imageWrapper'>
           <div className='rss__imageCol'>
-            <div className='rss__image content6'>
+            <div className='rss__image threeQua content6'>
               <div>description</div>
             </div>
             <div className='rss__image content7'>

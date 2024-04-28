@@ -42,4 +42,10 @@
     .rss__titleCard {
         height: 100vh;
     }
+
+    .rss__pivot {
+        background-position: 65% center;
+
+        background-image: url('./pivot-mobile.jpg');
+    }
 }

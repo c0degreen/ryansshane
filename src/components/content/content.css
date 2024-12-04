@@ -36,6 +36,10 @@
     background-size: cover;
 }
 
+.rss__image:hover {
+    border-radius: 0.5em;
+}
+
 .rss__image div {
     height: 100%;
     width: 100%;
@@ -45,11 +49,19 @@
     transition: opacity 0.8s;
     color: var(--white);
 
-    padding: 0.25em 0.25em 0.4em 0.4em;
+    padding: 0.3em 0.3em 0.5em 0.5em;
+
+    line-height: 1.4em;
+}
+
+.rss__image div p {
+    font-size: 1.2rem;
+    line-height: 1.1em;
 }
 
 .rss__image:hover div {
-    opacity: 0.5;
+    opacity: 0.75;
+    border-radius: 0.5em;
 }
 
 .rss__image.half {

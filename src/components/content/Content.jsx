@@ -49,33 +49,40 @@ const Content = () => {
       </div>
       <div className='rss__contentWrapper'>
         <h3>cusinier.</h3>
-        <h4>chef de partie in fine dining.</h4>
+        <h4>chef in fine dining.</h4>
         <div className='rss__imageWrapper'>
           <div className='rss__imageCol'>
             <div className='rss__image threeQua content6'>
-              <div>description</div>
+              <div>
+                Multi-Michelin star resume, including stints at Smyth, Boka, J&#xF4;nt, and Ever.
+              </div>
             </div>
             <div className='rss__image content7'>
-              <div>description</div>
+              <div>
+                Currently working on my popup, <a href="https://instagram.com/sisurestaurant">SISU</a>, a new Nordic take on local Utah ingredients.
+              </div>
             </div>
           </div>
           <div className='rss__imageCol'>
             <div className='rss__image content8'>
               <div>
-                trained in the best kitchens in the country.<br/>
-                including Smyth, Jont, Ever, and Boka.
+                Most recently Junior Sous Chef at Oquirrh in Salt Lake City.
               </div>
             </div>
           </div>
           <div className='rss__imageCol'>
             <div className='rss__image content9'>
               <div>
-                former junior sous chef at Oquirrh.<br/>
-                former chef de partie at Oquirrh, and Cucina Wine Bar.
+                Grilling gai lan, served with sunflower seed miso and mustards.
               </div>
             </div>
             <div className='rss__image content10'>
-              <div>description</div>
+              <div>
+                Duck with stone fruit and almonds.<br/>
+                <p>Breast roasted on the crown with glazed cherries, preserved green almonds, and almond miso.<br/>
+                Leg stewed with plums and lettuce<br/>
+                Liver custard filled donut glazed with preserved apricot toffee.</p>
+              </div>
             </div>
           </div>
         </div>

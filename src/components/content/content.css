@@ -32,7 +32,7 @@
 .rss__image {
     height: 100%;
     width: 100%;
-    background: var(--white) url() no-repeat center center;
+    background: var(--white) no-repeat center center;
     background-size: cover;
 }
 

@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Ryan Shane",
+  "name": "Ryan Shane • Short Track Speedskater and Professional Chef",
   "icons": [
     {
       "src": "favicon.ico",
@@ -10,6 +10,6 @@
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#1F1F1F",
+  "theme_color": "#EBE5D8",
   "background_color": "#EBE5D8"
 }

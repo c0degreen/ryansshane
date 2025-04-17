@@ -85,6 +85,28 @@ const Content = () => {
               </div>
             </div>
           </div>
+          <div className='rss__imageCol'>
+            <div className='rss__image content8'>
+              <div>
+                Most recently Junior Sous Chef at Oquirrh in Salt Lake City.
+              </div>
+            </div>
+          </div>
+          <div className='rss__imageCol'>
+            <div className='rss__image content9'>
+              <div>
+                Grilling gai lan, served with sunflower seed miso and mustards.
+              </div>
+            </div>
+            <div className='rss__image content10'>
+              <div>
+                Duck with stone fruit and almonds.<br/>
+                <p>Breast roasted on the crown with glazed cherries, preserved green almonds, and almond miso.<br/>
+                Leg stewed with plums, marigold, and lettuce<br/>
+                Liver custard filled donut glazed with preserved apricot toffee.</p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

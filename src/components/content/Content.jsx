@@ -54,7 +54,7 @@ const Content = () => {
           <div className='rss__imageCol'>
             <div className='rss__image threeQua content6'>
               <div>
-                Multi-Michelin star resume, including stints at Smyth, Boka, J&#xF4;nt, and Ever.
+                Multi-Michelin star resume, including stints at Eleven Madison Park, Smyth, Boka, J&#xF4;nt, Reverie, and Ever.
               </div>
             </div>
             <div className='rss__image content7'>

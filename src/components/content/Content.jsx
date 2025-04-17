@@ -59,7 +59,7 @@ const Content = () => {
             </div>
             <div className='rss__image content7'>
               <div>
-                Currently working on my popup, <a href="https://instagram.com/sisurestaurant">SISU</a>, a new Nordic take on local Utah ingredients.
+                Currently working on my popup, <a href="https://instagram.com/sisurestaurant">sisu</a>, a new Nordic take on local Utah ingredients.
               </div>
             </div>
           </div>

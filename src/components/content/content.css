@@ -76,6 +76,10 @@
     flex-shrink: calc(4/3);
 }
 
+.rss__image a {
+    text-decoration: underline;
+}
+
 .content1 {
     background-image: url('../../resources/content1.jpg');
 }

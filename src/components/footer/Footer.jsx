@@ -11,11 +11,11 @@ const Footer = () => {
         </div>
         <div className='rss__imageWrapper'>
           <div className='rss__imageCol'>
-            <a className='rss__image footer1'>
+            <div className='rss__image footer1'>
               <div>
                 instagram
               </div>
-            </a>
+            </div>
           </div>
           <div className='rss__imageCol'>
             <a className='rss__image footer2'>

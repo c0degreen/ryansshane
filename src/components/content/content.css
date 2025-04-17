@@ -38,6 +38,7 @@
     height: 100%;
 
     min-width: calc((100vw - (2em + 10vh))/3);
+    min-height: calc((100% - 2em)/3);
 
     gap: 1em;
 

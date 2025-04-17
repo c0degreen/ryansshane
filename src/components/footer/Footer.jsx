@@ -5,13 +5,45 @@ import './footer.css';
 const Footer = () => {
   return (
     <div className='rss__footer'>
-      <div className='rss__footer_links'>
-        <a href='https://instagram.com/ryansshane'><p>Instagram</p></a>
-        <a href='https://strava.com/athletes/44531359'><p>Strava</p></a>
-        <a href='https://linkedin.com/in/ryansshane'><p>LinkedIn</p></a>
-        <a href='mailto:ryan@ryansshane.com'><p>Email</p></a>
+      <div className='rss__contentWrapper'>
+        <div>
+          <h3>see more about me.</h3>
+        </div>
+        <div className='rss__imageWrapper'>
+          <div className='rss__imageCol'>
+            <a className='rss__image footer1'>
+              <div>
+                instagram
+              </div>
+            </a>
+          </div>
+          <div className='rss__imageCol'>
+            <a className='rss__image footer2'>
+              <div>
+                strava
+              </div>
+            </a>
+            <a className='rss__image twoThird footer3'>
+              <div>
+                linbkedin
+              </div>
+            </a>
+          </div>
+          <div className='rss__imageCol'>
+            <a className='rss__image threeQua footer4'>
+              <div>
+                email
+              </div>
+            </a>
+            <a className='rss__image footer5'>
+              <div>
+                resume
+              </div>
+            </a>
+          </div>
+        </div>
+        <h5>&copy; Copyright {new Date().getFullYear()} Ryan Shane LLC</h5>
       </div>
-      <div className='rss__footer_copyright'><p>&copy; Copyright {new Date().getFullYear()} Ryan Shane LLC</p></div>
     </div>
   )
 }

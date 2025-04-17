@@ -50,6 +50,8 @@
     width: 100%;
     background: var(--white) no-repeat center center;
     background-size: cover;
+
+    cursor: help;
 }
 
 .rss__image:hover {

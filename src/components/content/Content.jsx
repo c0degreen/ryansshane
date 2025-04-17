@@ -47,7 +47,7 @@ const Content = () => {
           </div>
         </div>
       </div>
-      <div className='rss__contentWrapper'>
+      <div className='rss__contentWrapper' id='scrollable'>
         <h3>cusinier.</h3>
         <h4>chef in fine dining.</h4>
         <div className='rss__imageWrapper'>
@@ -78,32 +78,29 @@ const Content = () => {
             </div>
             <div className='rss__image content10'>
               <div>
-                Duck with stone fruit and almonds.<br/>
-                <p>Breast roasted on the crown with glazed cherries, preserved green almonds, and almond miso.<br/>
-                Leg stewed with plums, marigold, and lettuce<br/>
-                Liver custard filled donut glazed with preserved apricot toffee.</p>
+                Duck with stone fruit and almonds.
+                <p>Breast roasted on the crown with glazed cherries, preserved green almonds, and almond miso.</p>
+                <p>Leg stewed with plums, marigold, and lettuce</p>
+                <p>Liver custard filled donut glazed with preserved apricot toffee.</p>
               </div>
             </div>
           </div>
           <div className='rss__imageCol'>
-            <div className='rss__image content8'>
+            <div className='rss__image twoThird content11'>
               <div>
-                Most recently Junior Sous Chef at Oquirrh in Salt Lake City.
+                Fresh cheese with almond and brioche
+                <p>Cheese cultured with amazake and almond miso.</p>
+                <p>Warmed in its own whey, served with freshly squeezed almond milk and oil.</p>
+                <p>Served alongside a small loaf of warm, fresh baked brioche for dipping.</p>
               </div>
             </div>
-          </div>
-          <div className='rss__imageCol'>
-            <div className='rss__image content9'>
+            <div className='rss__image content12'>
               <div>
-                Grilling gai lan, served with sunflower seed miso and mustards.
-              </div>
-            </div>
-            <div className='rss__image content10'>
-              <div>
-                Duck with stone fruit and almonds.<br/>
-                <p>Breast roasted on the crown with glazed cherries, preserved green almonds, and almond miso.<br/>
-                Leg stewed with plums, marigold, and lettuce<br/>
-                Liver custard filled donut glazed with preserved apricot toffee.</p>
+                Strawberries, rhubarb, and jasmine.
+                <p>Ice cream made from strawberry and whey kombucha.</p>
+                <p>Garden strawberries macerated with whey garum and preserved citrus.</p>
+                <p>Rhubarb poached in jasmine blossom and hibiscus.</p>
+                <p>Jasmine tea custard and jasmine blossom crystals.</p>
               </div>
             </div>
           </div>

@@ -72,6 +72,7 @@
 .rss__image div p {
     font-size: 1.2rem;
     line-height: 1.1em;
+    margin-bottom: 0.2em;
 }
 
 .rss__image:hover div {
@@ -142,6 +143,16 @@
 .content10 {
     background-image: url('../../resources/content10.jpg');
     background-position: 40% 80%;
+}
+
+.content11 {
+    background-image: url('../../resources/content11.jpg');
+    background-position: 50% 60%;
+}
+
+.content12 {
+    background-image: url('../../resources/content12.jpg');
+    background-position: 40% 60%;
 }
 
 @media only screen and (min-width: 768px) {

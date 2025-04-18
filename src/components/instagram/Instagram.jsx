@@ -66,11 +66,20 @@ const Instagram = () => {
     <div className='rss__instagram'>
         <div className='rss__instagramHeader'>
             <img className='rss__profile' src={profileURL} alt='instagram profile' />
-            <div className='rss__username'>&#64;{username}</div>
-            <div className='rss__followers'>{followers}</div>
-            <div className='rss__follows'>{follows}</div>
-            <div className='rss__biography'>{biography}</div>
-            <a className='rss__followButton' href={'https://instagram.com/' + username}>Follow</a>
+            <div>
+                <div className='flexRow'>
+                    <div>
+                        <div className='rss__name'>Ryan Shane</div>
+                        <div className='rss__username'>&#64;{username}</div>
+                    </div>
+                    <a className='rss__followButton' href={'https://instagram.com/' + username}>Follow</a>
+                </div>
+                <div className='flexRow'>
+                    <div className='rss__followers'><b>{followers}</b> followers</div>
+                    <div className='rss__follows'><b>{follows}</b> following</div>
+                </div>
+                <div className='rss__biography'>{biography}</div>
+            </div>
         </div>
         <div className='rss__instagramPosts'>
             {posts.map((post, index) => {

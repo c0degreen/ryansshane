@@ -11,15 +11,23 @@
     justify-content: space-between;
 
     font-family: Arial, Helvetica, sans-serif;
+
+    overflow: hidden;
+}
+
+.rss__instagram div {
+    font-size: 1rem;
 }
 
 .rss__instagramHeader {
     display: flex;
+    margin: 1rem;
 }
 
 .rss__profile {
     height: 5rem;
     border-radius: 100%;
+    margin-right: 1rem;
 }
 
 .rss__name, .rss__followers b, .rss_follows b {
@@ -49,8 +57,16 @@
 
     transition: opacity 0.8s;
     color: var(--white);
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }
 
 .rss__instagramPost div:hover {
     opacity: 0.75;
+}
+
+.rss__instagramPost div svg {
+    width: 2rem;
 }

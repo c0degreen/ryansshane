@@ -25,19 +25,18 @@ function convertBio(x) {
 const Strava = () => {
   const [isLoading, setIsLoading] = useState(true)
   const [athlete, setAthlete] = useState({})
-  const [stats, setStats] = useState({})
+  const [activities, setActivities] = useState({})
 
   //Strava Credentials
   let clientID = '156161';
   let clientSecret = '1e89e626861cde6fff18ef256b1c275993f8813b';
 
   // refresh token and call address
-  const refreshToken = '41b5c7b06063bcb45ccb7a36758f2cd2b49ca504';
+  const refreshToken = '9309c0adbda1bedcfccd72f9cd7be21db74d37d0';
   const callRefresh = `https://www.strava.com/oauth/token?client_id=${clientID}&client_secret=${clientSecret}&refresh_token=${refreshToken}&grant_type=refresh_token`
   
   const getAthlete = 'https://www.strava.com/api/v3/athlete?access_token='
-  const getAthleteStats = 'https://www.strava.com/api/v3/athletes/44531359/stats?access_token='
-  const getActivity = 'https://www.strava.com/api/v3/activities/{id}?include_all_efforts="false"&access_token='
+  const getActivity = 'https://www.strava.com/api/v3/athlete/activities?access_token='
 
   // Use refresh token to get current access token
   useEffect(() => {
@@ -55,22 +54,22 @@ const Strava = () => {
       .then(data => setAthlete(data), setIsLoading(prev => !prev))
       .catch(e => console.log(e))
 
-      fetch(getAthleteStats + access)
+      fetch(getActivity + access)
       .then(res => res.json())
-      .then(data => setStats(data), setIsLoading(prev => !prev))
+      .then(data => setActivities(data), setIsLoading(prev => !prev))
       .catch(e => console.log(e))
   }
 
-  if (athlete.firstname == undefined || stats.recent_run_totals == undefined) {
+  if (athlete.firstname == undefined || activities.recent_run_totals == undefined) {
     return 'loading...'
   }
 
-  const [profileUrl, name, biography, id, activities] 
-      = [athlete.profile, (athlete.firstname + ' ' + athlete.lastname), athlete.bio, athlete.id, convertNum(stats.all_ride_totals.count + stats.all_run_totals.count + stats.all_ride_totals.count)]
+  const [profileUrl, username, name, biography, followers, follows] 
+      = [athlete.profile, athlete.username, (athlete.firstname + ' ' + athlete.lastname), athlete.bio, athlete.follower_count, athlete.friend_count]
 
 
   console.log(athlete)
-  console.log(stats)
+  console.log(activities)
 
   const link = 'https://instagram.com/' + 0
   const style = {
@@ -85,14 +84,13 @@ const Strava = () => {
               <div className='flexRow'>
                   <div className='flexCol'>
                       <div className='rss__name'>{name}</div>
-                      <div className='rss__username'>&#64;{}</div>
+                      <div className='rss__username'>&#64;{username}</div>
                   </div>
                   <div className='rss__followButton'>Follow</div>
               </div>
               <div className='flexRow'>
-                  <div className='rss__numbers'><b>{}</b> followers</div>
-                  <div className='rss__numbers'><b>{}</b> following</div>
-                  <div className='rss__numbers'><b>{}</b> activities</div>
+                  <div className='rss__numbers'><b>{followers}</b> followers</div>
+                  <div className='rss__numbers'><b>{follows}</b> following</div>
               </div>
               <div className='rss__biography'>{biography}</div>
           </div>

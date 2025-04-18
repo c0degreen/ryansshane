@@ -7,6 +7,7 @@ a.rss__image {
     cursor: pointer; 
 }
 
-.footer1 {
+.rss__image.footer1 div {
+    opacity: 1;
     background: green;
 }

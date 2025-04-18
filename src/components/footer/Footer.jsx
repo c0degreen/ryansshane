@@ -1,8 +1,10 @@
 import React from 'react'
+import Instagram from '../instagram/Instagram';
 
 import './footer.css';
 
 const Footer = () => {
+  
   return (
     <div className='rss__footer'>
       <div className='rss__contentWrapper'>
@@ -11,11 +13,7 @@ const Footer = () => {
         </div>
         <div className='rss__imageWrapper'>
           <div className='rss__imageCol'>
-            <div className='rss__image footer1'>
-              <div>
-                instagram
-              </div>
-            </div>
+            <Instagram />
           </div>
           <div className='rss__imageCol'>
             <a className='rss__image footer2'>

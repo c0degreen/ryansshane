@@ -67,6 +67,12 @@ div {
     justify-content: space-between;
 }
 
+.flexCol {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 @media only screen and (min-width: 768px) {
     
     h1 {

@@ -22,6 +22,8 @@
 .rss__instagramHeader {
     display: flex;
     margin: 1rem;
+
+    flex: 1;
 }
 
 .rss__profile {

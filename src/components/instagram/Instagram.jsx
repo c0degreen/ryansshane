@@ -2,12 +2,24 @@ import { React, useState, useEffect } from 'react'
 
 import './instagram.css';
 
-function convert(x) {
+function convertNum(x) {
     const magnitude = Math.floor(Math.floor(Math.log(x) / Math.LN10 + 0.000000001)/3)*3
     const divided   = Math.round(x/Math.pow(10,magnitude-1))/10
     var appendix  = (magnitude === 3) ? "K" : ((magnitude === 6) ? "M" : "")
 
     return (divided.toString()+appendix)
+}
+
+function convertBio(x) {
+    var array = x.split('\n')
+
+    return (
+        array.map((line, index) => {
+            return(
+                <p>{line}</p>
+            )
+        })
+    )
 }
 
 const Instagram = () => {
@@ -56,31 +68,33 @@ const Instagram = () => {
   console.log(json)
 
   const [profileURL, username, biography, followers, follows, posts] 
-      = [json.profilePictureUrl, json.username, json.biography, convert(json.followersCount), convert(json.followsCount), json.posts]
+      = [json.profilePictureUrl, json.username, convertBio(json.biography), convertNum(json.followersCount), convertNum(json.followsCount), json.posts]
 
   if (posts == undefined) {
     return;
   }
 
+  const link = 'https://instagram.com/' + username
+
   return (
     <div className='rss__instagram'>
-        <div className='rss__instagramHeader'>
+        <a className='rss__instagramHeader flexRow' href={link}>
             <img className='rss__profile' src={profileURL} alt='instagram profile' />
-            <div>
+            <div className='rss__instagramInfo flexCol'>
                 <div className='flexRow'>
-                    <div>
+                    <div className='flexCol'>
                         <div className='rss__name'>Ryan Shane</div>
                         <div className='rss__username'>&#64;{username}</div>
                     </div>
-                    <a className='rss__followButton' href={'https://instagram.com/' + username}>Follow</a>
+                    <div className='rss__followButton' href={link}>Follow</div>
                 </div>
                 <div className='flexRow'>
-                    <div className='rss__followers'><b>{followers}</b> followers</div>
-                    <div className='rss__follows'><b>{follows}</b> following</div>
+                    <div className='rss__numbers'><b>{followers}</b> followers</div>
+                    <div className='rss__numbers'><b>{follows}</b> following</div>
                 </div>
                 <div className='rss__biography'>{biography}</div>
             </div>
-        </div>
+        </a>
         <div className='rss__instagramPosts'>
             {posts.map((post, index) => {
                 const [caption, src, url] = [post.caption, post.sizes.medium.mediaUrl, post.permalink]

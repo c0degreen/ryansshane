@@ -1,6 +1,6 @@
 import { React, useState, useEffect } from 'react'
 
-import './instagram.css';
+import './socials.css';
 
 function convertNum(x) {
     const magnitude = Math.floor(Math.floor(Math.log(x) / Math.LN10 + 0.000000001)/3)*3
@@ -65,14 +65,12 @@ const Instagram = () => {
     }
   })
 
-  console.log(json)
+  if (json.username == undefined) {
+    return 'loading...'
+  }
 
   const [profileURL, username, biography, followers, follows, posts] 
       = [json.profilePictureUrl, json.username, convertBio(json.biography), convertNum(json.followersCount), convertNum(json.followsCount), json.posts]
-
-  if (posts == undefined) {
-    return;
-  }
 
   const link = 'https://instagram.com/' + username
 

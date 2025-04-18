@@ -1,6 +1,6 @@
 import React from 'react'
-import Instagram from '../instagram/Instagram';
-import Strava from '../strava/Strava';
+import Instagram from '../socials/Instagram';
+import Strava from '../socials/Strava';
 
 import './footer.css';
 

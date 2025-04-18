@@ -1,5 +1,6 @@
 import React from 'react'
 import Instagram from '../instagram/Instagram';
+import Strava from '../strava/Strava';
 
 import './footer.css';
 
@@ -16,14 +17,7 @@ const Footer = () => {
             <Instagram />
           </div>
           <div className='rss__imageCol'>
-            <a className='rss__image footer2'>
-            <div class="strava-embed-placeholder" data-embed-type="activity" data-embed-id="14157612277" data-style="standard" data-from-embed="false"></div><script src="https://strava-embeds.com/embed.js"></script>
-            </a>
-            <a className='rss__image twoThird footer3'>
-              <div>
-                linbkedin
-              </div>
-            </a>
+            <Strava />
           </div>
           <div className='rss__imageCol'>
             <a className='rss__image threeQua footer4'>

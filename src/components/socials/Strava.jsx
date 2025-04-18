@@ -53,11 +53,14 @@ const Strava = () => {
   console.log(stats)
 
   const link = 'https://instagram.com/' + 0
+  const style = {
+    backgroundImage: 'url(\'' + profileUrl + '\')'
+  }
 
   return (
-    <div className='rss__instagram'>
+    <div className='rss__strava'>
       <a className='rss__instagramHeader flexRow' href=''>
-        <img className='rss__profile' src={profileUrl} alt='strava profile' />
+        <div className='rss__profile' style={style}></div>
           <div className='rss__instagramInfo flexCol'>
               <div className='flexRow'>
                   <div className='flexCol'>

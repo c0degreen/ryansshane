@@ -69,15 +69,18 @@ const Instagram = () => {
     return 'loading...'
   }
 
-  const [profileURL, username, biography, followers, follows, posts] 
+  const [profileUrl, username, biography, followers, follows, posts] 
       = [json.profilePictureUrl, json.username, convertBio(json.biography), convertNum(json.followersCount), convertNum(json.followsCount), json.posts]
 
   const link = 'https://instagram.com/' + username
+  const style = {
+    backgroundImage: 'url(\'' + profileUrl + '\')'
+  }
 
   return (
     <div className='rss__instagram'>
         <a className='rss__instagramHeader flexRow' href={link}>
-            <img className='rss__profile' src={profileURL} alt='instagram profile' />
+            <div className='rss__profile' style={style}></div>
             <div className='rss__instagramInfo flexCol'>
                 <div className='flexRow'>
                     <div className='flexCol'>

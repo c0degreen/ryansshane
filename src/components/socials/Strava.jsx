@@ -2,6 +2,26 @@ import { React, useState, useEffect } from 'react'
 
 import './socials.css';
 
+function convertNum(x) {
+  const magnitude = Math.floor(Math.floor(Math.log(x) / Math.LN10 + 0.000000001)/3)*3
+  const divided   = Math.round(x/Math.pow(10,magnitude-1))/10
+  var appendix  = (magnitude === 3) ? "K" : ((magnitude === 6) ? "M" : "")
+
+  return (divided.toString()+appendix)
+}
+
+function convertBio(x) {
+  var array = x.split('\n')
+
+  return (
+      array.map((line, index) => {
+          return(
+              <p>{line}</p>
+          )
+      })
+  )
+}
+
 const Strava = () => {
   const [isLoading, setIsLoading] = useState(true)
   const [athlete, setAthlete] = useState({})
@@ -12,7 +32,7 @@ const Strava = () => {
   let clientSecret = '1e89e626861cde6fff18ef256b1c275993f8813b';
 
   // refresh token and call address
-  const refreshToken = 'd3bfbd6e82dc77dc7bb05eb5ab6f6d34426354e7';
+  const refreshToken = '41b5c7b06063bcb45ccb7a36758f2cd2b49ca504';
   const callRefresh = `https://www.strava.com/oauth/token?client_id=${clientID}&client_secret=${clientSecret}&refresh_token=${refreshToken}&grant_type=refresh_token`
   
   const getAthlete = 'https://www.strava.com/api/v3/athlete?access_token='
@@ -45,8 +65,8 @@ const Strava = () => {
     return 'loading...'
   }
 
-  const [profileUrl, name, biography, id] 
-      = [athlete.profile, (athlete.firstname + ' ' + athlete.lastname), athlete.bio, athlete.id]
+  const [profileUrl, name, biography, id, activities] 
+      = [athlete.profile, (athlete.firstname + ' ' + athlete.lastname), athlete.bio, athlete.id, convertNum(stats.all_ride_totals.count + stats.all_run_totals.count + stats.all_ride_totals.count)]
 
 
   console.log(athlete)
@@ -72,6 +92,7 @@ const Strava = () => {
               <div className='flexRow'>
                   <div className='rss__numbers'><b>{}</b> followers</div>
                   <div className='rss__numbers'><b>{}</b> following</div>
+                  <div className='rss__numbers'><b>{}</b> activities</div>
               </div>
               <div className='rss__biography'>{biography}</div>
           </div>

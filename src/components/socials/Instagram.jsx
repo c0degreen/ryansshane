@@ -59,11 +59,12 @@ const Instagram = () => {
     // Run
     fetchFeed()
 
+    console.log('loading ig')
     // Abort fetch if feedId changes or component is unmounted
     return () => {
       controller.abort()
     }
-  })
+  }, [])
 
   if (json.username == undefined) {
     return 'loading...'

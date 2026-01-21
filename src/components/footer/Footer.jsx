@@ -1,39 +1,17 @@
 import React from 'react'
-import Instagram from '../socials/Instagram';
-import Strava from '../socials/Strava';
 
 import './footer.css';
 
 const Footer = () => {
   
   return (
-    <div className='rss__footer'>
-      <div className='rss__contentWrapper'>
-        <div>
-          <h3>see more about me.</h3>
-        </div>
-        <div className='rss__imageWrapper'>
-          <div className='rss__imageCol'>
-            <Instagram />
-          </div>
-          <div className='rss__imageCol'>
-            <Strava />
-          </div>
-          <div className='rss__imageCol'>
-            <a className='rss__image threeQua footer4'>
-              <div>
-                email
-              </div>
-            </a>
-            <a className='rss__image footer5'>
-              <div>
-                resume
-              </div>
-            </a>
-          </div>
-        </div>
-        <h5>&copy; Copyright {new Date().getFullYear()} Ryan Shane LLC</h5>
-      </div>
+    <div class="rss__footer">
+      <div class="rss__footer_links">
+        <a href="https://instagram.com/ryansshane"><p>Instagram</p></a>
+        <a href="https://strava.com/athletes/44531359"><p>Strava</p></a>
+        <a href="https://linkedin.com/in/ryansshane"><p>LinkedIn</p></a>
+        <a href="mailto:ryan@ryansshane.com"><p>Email</p></a></div>
+        <p className='rss__copyright'>&copy; Copyright {new Date().getFullYear()} Ryan Shane</p>
     </div>
   )
 }

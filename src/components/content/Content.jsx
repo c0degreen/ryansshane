@@ -24,7 +24,7 @@ const Content = () => {
             <div className='rss__image content2'>
               <div>
                 US Junior Vice Champion 2023. <br/>
-                3x US Junior Medalist.
+                3x US Junior Medalist.git 
               </div>
             </div>
             <div className='rss__image twoThird content3'>

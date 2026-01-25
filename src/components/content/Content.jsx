@@ -48,7 +48,7 @@ const Content = () => {
         </div>
       </div>
       <div className='rss__contentWrapper' id='scrollable'>
-        <h3>cusinier.</h3>
+        <h3>cuisiner.</h3>
         <h4>chef in fine dining.</h4>
         <div className='rss__imageWrapper'>
           <div className='rss__imageCol'>
